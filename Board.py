@@ -70,7 +70,14 @@ class Board:
         return state
 
     def __str__(self):
-        pass
+        rep = ''
+
+        for i in range(self.size):
+            for j in range(self.size):
+                rep += Constants.CELL_TO_REP[self.board[i][j]]
+            rep += '\n'
+
+        return rep        
 
 def test_board_to_state():
     board = Board(5)
