@@ -37,8 +37,8 @@ class Board:
 
         neighbors = filter(lambda x: self.valid2(*x), neighbors)
 
-        neighbors = map(lambda neighbor: (
-            self.board[neighbor], self.liberty_dfs(*neighbor, self.board[neighbor])), neighbors)
+        for neighbor in neighbors:
+            self.liberty_dfs(*neighbor, self.board[neighbor])
 
     def remove_stone(self, x: int, y: int) -> None:
         self.board[x][y] = constants.EMPTY
