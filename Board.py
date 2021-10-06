@@ -1,61 +1,116 @@
 import numpy as np
-import Constants
+import constants
+import sys
+from functools import reduce
+
+sys.stdout = open("output.txt", "w")
+sys.stderr = open("output.txt", "w")
 
 
 class Board:
     def __init__(self, N):
         self.size = N
-        self.board = np.full((N, N), fill_value=Constants.EMPTY, dtype=int)
+        self.board = np.full((N, N), fill_value=constants.EMPTY, dtype=int)
         self.curr_player = 0
+        self.captured_stones = []
 
     def place_stone(self, x: int, y: int, stone: int) -> None:
         self.board[x][y] = stone
-        self.last_move = (x, y)
+
+        self.find_captured_stones(x, y)
+
+        self.remove_captured_stones()
+
+        self.last_move = (x, y, stone)
+
+    def remove_captured_stones(self) -> None:
+        for stone in self.captured_stones:
+            self.remove_stone(*stone)
+
+    def find_captured_stones(self, x: int, y: int) -> None:
+        neighbors = [(x - 1, y), (x, y - 1), (x + 1, y), (x, y + 1)]
+
+        neighbors = filter(lambda x: self.valid2(*x), neighbors)
+
+        neighbors = map(lambda neighbor: (
+            self.board[neighbor], self.liberty_dfs(*neighbor, self.board[neighbor])), neighbors)
 
     def remove_stone(self, x: int, y: int) -> None:
-        self.board[x][y] = Constants.EMPTY
+        self.board[x][y] = constants.EMPTY
 
     def remove_last_stone(self) -> bool:
         if self.last_move is None:
             return False
 
-        self.board[self.last_move[0]][self.last_move[1]] = Constants.EMPTY
-        
+        self.board[self.last_move[0]][self.last_move[1]] = constants.EMPTY
+
+        removed_stone = constants.OTHER_STONE[self.last_move[2]]
+
+        for stone in self.captured_stones:
+            self.board[stone[0]][stone[1]] = removed_stone
+
         return True
 
     def valid(self, cord: int) -> bool:
         return cord >= 0 and cord <= self.size - 1
 
+    def valid2(self, x: int, y: int) -> bool:
+        return self.valid(x) and self.valid(y)
+
     def has_liberty(self, x: int, y: int, stone: int):
+        self.liberty = np.zeros((self.size, self.size), dtype=bool)
         self.visited = np.zeros((self.size, self.size), dtype=bool)
 
-        for cord, stone in np.ndenumerate(self.board):
-            if not self.visited[cord] and not stone == Constants.EMPTY:
-                self.has_liberty_inner(*cord, stone)
+        self.board[x][y] = stone
 
-        return self.has_liberty_inner(x, y, stone)
+        neighbors = [(x - 1, y), (x, y - 1), (x + 1, y), (x, y + 1)]
 
-    def has_liberty_inner(self, x: int, y: int, stone: int) -> int:
+        neighbors = filter(lambda x: self.valid2(*x), neighbors)
+
+        neighbors = map(lambda x: (
+            self.board[x], self.liberty_dfs(*x, self.board[x])), neighbors)
+
+        neighbors_liberty = map(
+            lambda x: not x[1] if x[0] == constants.OTHER_STONE[stone] else x[1], neighbors)
+
+        liberty = reduce(lambda x, y: (x or y), neighbors_liberty)
+
+        self.board[x][y] = constants.EMPTY
+
+        return liberty
+
+    def liberty_dfs(self, x: int, y: int, stone: int) -> int:
         if not (self.valid(x) and self.valid(y)):
-            return False
-        
-        if self.board[x][y] == Constants.EMPTY:
+            return None
+
+        curr_stone = self.board[x][y]
+
+        if self.visited[x, y]:
+            return self.liberty[x, y]
+
+        if curr_stone == constants.EMPTY:
             return True
 
-        if self.board[x][y] != stone:
+        if curr_stone != stone:
             return False
 
-        left_lib = self.has_liberty_inner(x - 1, y, stone)
-        top_lib = self.has_liberty_inner(x, y - 1, stone)
-        right_lib = self.has_liberty_inner(x + 1, y, stone)
-        bottom_lib = self.has_liberty_inner(x, y + 1, stone)
+        self.visited[x, y] = True
 
-        lib = left_lib or top_lib or right_lib or bottom_lib
+        neighbors_liberty = [
+            self.liberty_dfs(x - 1, y, stone),
+            self.liberty_dfs(x, y - 1, stone),
+            self.liberty_dfs(x + 1, y, stone),
+            self.liberty_dfs(x, y + 1, stone),
+        ]
+
+        lib = reduce(lambda x, y: (x or y), neighbors_liberty)
 
         if not lib:
-            self.remove_stone(x, y)
+            self.captured_stones.append((x, y))
 
-        return 
+        self.liberty[x, y] = lib
+
+        return lib
 
     def to_state(self) -> int:
         state: int = 0
@@ -70,38 +125,56 @@ class Board:
         return state
 
     def __str__(self):
-        rep = ''
+        line = '-----\n'
+        rep = line
 
         for i in range(self.size):
             for j in range(self.size):
-                rep += Constants.CELL_TO_REP[self.board[i][j]]
+                rep += constants.CELL_TO_REP[self.board[i][j]]
             rep += '\n'
 
-        return rep        
+        rep += line
+
+        return rep
+
 
 def test_board_to_state():
     board = Board(5)
 
-    board.place_stone(0, 0, Constants.WHITE)
-    board.place_stone(0, 1, Constants.BLACK)
+    board.place_stone(0, 0, constants.WHITE)
+    board.place_stone(0, 1, constants.BLACK)
 
     assert board.to_state() == 6
 
-
-def test_has_liberty():
+def get_board_with_pieces(black_stones: list[int], white_stones: list[int]) -> Board:
     board = Board(5)
 
-    black_stones = [[0, 3], [1, 0], [1, 3], [3, 4]]
-    white_stones = [[1, 1], [1, 2], [1, 4], [2, 0], [2, 3], [3, 1], [3, 2]]
-
     for stone in black_stones:
-        board.place_stone(*stone)
-    
+        board.place_stone(*stone, constants.BLACK)
+
     for stone in white_stones:
-        board.place_stone(*stone)
+        board.place_stone(*stone, constants.WHITE)
+
+    return board
+
+def test_has_liberty():
+    black_stones = [[0, 3], [1, 0], [1, 3], [2, 1], [2, 2], [3, 0]]
+    white_stones = [[1, 1], [1, 2], [1, 4], [2, 3], [3, 1], [3, 2]]
+
+    board1 = get_board_with_pieces(black_stones, white_stones)
+
+    assert board1.has_liberty(2, 0, constants.WHITE)
+
+    board1.place_stone(2, 0, constants.WHITE)
+
+    black_stones = [[0, 3], [1, 0], [1, 3], [3, 0]]
+    white_stones = [[1, 1], [1, 2], [1, 4], [2, 3], [3, 1], [3, 2], [2, 0]]
+
+    board2 = get_board_with_pieces(black_stones, white_stones)
+
+    assert board1.to_state() == board2.to_state()
 
 
 if __name__ == "__main__":
     test_board_to_state()
     test_has_liberty()
-    
