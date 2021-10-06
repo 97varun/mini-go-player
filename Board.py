@@ -17,6 +17,8 @@ class Board:
     def place_stone(self, x: int, y: int, stone: int) -> None:
         self.board[x][y] = stone
 
+        self.captured_stones = []
+
         self.find_captured_stones(x, y)
 
         self.remove_captured_stones()
