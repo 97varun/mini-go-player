@@ -30,6 +30,9 @@ class Board:
             self.remove_stone(*stone)
 
     def find_captured_stones(self, x: int, y: int) -> None:
+        self.liberty = np.zeros((self.size, self.size), dtype=bool)
+        self.visited = np.zeros((self.size, self.size), dtype=bool)
+
         neighbors = [(x - 1, y), (x, y - 1), (x + 1, y), (x, y + 1)]
 
         neighbors = filter(lambda x: self.valid2(*x), neighbors)
