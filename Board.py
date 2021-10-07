@@ -128,7 +128,7 @@ class Board:
 
         return state
 
-    def __str__(self):
+    def __str__(self) -> str:
         line = '-----\n'
         rep = line
 
@@ -141,9 +141,11 @@ class Board:
 
         return rep
 
-    def get_num_stones(self, stone: int):
+    def get_num_stones(self, stone: int) -> int:
         return len(np.where(self.board == stone)[0])
 
+    def empty(self, x: int, y: int) -> bool:
+        return self.board[x, y] == constants.EMPTY
 
 def test_board_to_state():
     board = Board(5)
