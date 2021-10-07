@@ -17,16 +17,18 @@ class Game:
 
     def move(self, x: int, y: int) -> bool:
         if not self.legal_move(x, y):
-            return False
+            success = False
+        else:
+            success = True
 
-        self.board.place_stone(x, y, self.curr_player)
+            self.board.place_stone(x, y, self.curr_player)
 
         self.parent_state = self.state
         self.state = self.board.to_state()
 
         self.curr_player = constants.OTHER_STONE[self.curr_player]
 
-        return True
+        return success
 
     def legal_move(self, x: int, y: int):
         # pass
