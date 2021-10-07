@@ -61,6 +61,9 @@ class Game:
         if x == None or y == None:
             return True
 
+        if not self.board.empty(x, y):
+            return False
+
         liberty = self.check_liberty_rule(x, y)
 
         self.board.place_stone(x, y, self.curr_player)
