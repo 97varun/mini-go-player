@@ -14,8 +14,15 @@ class Game:
         self.curr_player = constants.BLACK
         self.board = Board(N)
         self.komi = N / 2
+        self.num_moves = 0
+        self.size = N
+        self.game_over = False
 
     def move(self, x: int, y: int) -> bool:
+        # two consecutive pass
+        if (x == None or y == None) and self.state == self.parent_state:
+            self.game_over = True
+        
         if not self.legal_move(x, y):
             success = False
         else:
@@ -27,6 +34,11 @@ class Game:
         self.state = self.board.to_state()
 
         self.curr_player = constants.OTHER_STONE[self.curr_player]
+        self.num_moves += 1
+
+        # max moves
+        if self.num_moves == self.size ** 2 - 1:
+            self.game_over = True
 
         return success
 
@@ -54,6 +66,7 @@ class Game:
     def state_to_board():
         pass
 
+        
 
 def test_ko_rule():
     black_stones = [[1, 2], [2, 1], [2, 3], [3, 2]]
@@ -75,5 +88,15 @@ def test_ko_rule():
     assert not legal
 
 
+def test_game_over():
+    game = Game()
+
+    game.move(None, None)
+
+    game.move(None, None)
+
+    assert game.game_over
+
 if __name__ == "__main__":
     test_ko_rule()
+    test_game_over()
