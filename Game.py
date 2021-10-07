@@ -27,7 +27,8 @@ class Game:
         else:
             success = True
 
-            self.board.place_stone(x, y, self.curr_player)
+            if not(x == None or y == None):
+                self.board.place_stone(x, y, self.curr_player)
 
         self.parent_state = self.state
         self.state = self.board.to_state()
