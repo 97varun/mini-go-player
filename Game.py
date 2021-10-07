@@ -4,7 +4,6 @@ from board import *
 import sys
 
 sys.stdout = open("output.txt", "w")
-sys.stderr = open("output.txt", "w")
 
 
 class Game:

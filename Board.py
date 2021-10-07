@@ -4,7 +4,6 @@ import sys
 from functools import reduce
 
 sys.stdout = open("output.txt", "w")
-sys.stderr = open("output.txt", "w")
 
 
 class Board:
