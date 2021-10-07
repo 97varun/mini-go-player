@@ -145,6 +145,7 @@ class Board:
     def get_num_stones(self, stone: int):
         return len(np.where(self.board == stone)[0])
 
+
 def test_board_to_state():
     board = Board(5)
 
@@ -152,6 +153,7 @@ def test_board_to_state():
     board.place_stone(0, 1, constants.BLACK)
 
     assert board.to_state() == 6
+
 
 def get_board_with_pieces(black_stones: list[int], white_stones: list[int]) -> Board:
     board = Board(5)
@@ -163,6 +165,7 @@ def get_board_with_pieces(black_stones: list[int], white_stones: list[int]) -> B
         board.place_stone(*stone, constants.WHITE)
 
     return board
+
 
 def test_has_liberty():
     black_stones = [[0, 3], [1, 0], [1, 3], [2, 1], [2, 2], [3, 0]]
@@ -181,6 +184,7 @@ def test_has_liberty():
 
     assert board1.to_state() == board2.to_state()
 
+
 def test_num_stones():
     black_stones = [[0, 3], [1, 0], [1, 3]]
     white_stones = [[1, 1], [1, 2], [1, 4], [2, 3], [3, 1], [3, 2]]
@@ -189,6 +193,7 @@ def test_num_stones():
 
     assert board1.get_num_stones(constants.BLACK) == 3
     assert board1.get_num_stones(constants.WHITE) == 6
+
 
 if __name__ == "__main__":
     test_board_to_state()

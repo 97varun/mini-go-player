@@ -36,7 +36,7 @@ class Game:
         liberty = self.check_liberty_rule(x, y)
 
         self.board.place_stone(x, y, self.curr_player)
-        
+
         ko = self.check_ko_rule(x, y)
 
         self.board.remove_last_stone()
@@ -73,9 +73,5 @@ def test_ko_rule():
     assert not legal
 
 
-def test_num_stones():
-
-
 if __name__ == "__main__":
     test_ko_rule()
-    test_num_stones()
