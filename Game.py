@@ -17,7 +17,14 @@ class Game:
         self.size = N
         self.game_over = False
 
-    def move(self, x: int, y: int) -> bool:
+    def move(self, a: int) -> bool:
+        # pass
+        if a < 0:
+            return self.move2(None, None)
+
+        return self.move2(a // self.size, a % self.size)
+
+    def move2(self, x: int, y: int) -> bool:
         # two consecutive pass
         if (x == None or y == None) and self.state == self.parent_state:
             self.game_over = True
@@ -42,7 +49,14 @@ class Game:
 
         return success
 
-    def legal_move(self, x: int, y: int):
+    def legal_move(self, a: int) -> bool:
+        if a < 0:
+            return self.legal_move2(None, None)
+        
+        return self.legal_move2(a // self.size, a % self.size)
+
+
+    def legal_move2(self, x: int, y: int):
         # pass
         if x == None or y == None:
             return True
