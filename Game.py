@@ -8,11 +8,12 @@ sys.stderr = open("output.txt", "w")
 
 
 class Game:
-    def __init__(self):
+    def __init__(self, N):
         self.state = 0
         self.parent_state = 0
         self.curr_player = constants.BLACK
-        self.board = Board(5)
+        self.board = Board(N)
+        self.komi = N / 2
 
     def move(self, x: int, y: int) -> bool:
         if not self.legal_move(x, y):
@@ -58,7 +59,7 @@ def test_ko_rule():
 
     board1 = get_board_with_pieces(black_stones, white_stones)
 
-    game = Game()
+    game = Game(5)
     game.board = board1
     game.state = board1.to_state()
     game.curr_player = constants.WHITE
@@ -72,5 +73,9 @@ def test_ko_rule():
     assert not legal
 
 
+def test_num_stones():
+
+
 if __name__ == "__main__":
     test_ko_rule()
+    test_num_stones()
