@@ -63,8 +63,18 @@ class Game:
     def check_ko_rule(self, x: int, y: int) -> bool:
         return self.board.to_state() == self.parent_state
 
-    def state_to_board():
-        pass
+    def get_reward(self, player):
+        black_score = self.board.get_num_stones(constants.BLACK)
+        white_score = self.board.get_num_stones(constants.WHITE) + self.komi
+
+        if self.game_over:  
+            winner = np.argmax([black_score, white_score]) + 1
+
+            return constants.WIN_REWARD if player == winner else constants.LOSS_REWARD
+
+        score_diff = black_score - white_score
+        
+        return score_diff if player == constants.BLACK else -score_diff
 
         
 
@@ -89,7 +99,7 @@ def test_ko_rule():
 
 
 def test_game_over():
-    game = Game()
+    game = Game(5)
 
     game.move(None, None)
 
@@ -97,6 +107,26 @@ def test_game_over():
 
     assert game.game_over
 
+def test_reward():
+    game = Game(5)
+    game.move(None, None)
+    game.move(None, None)
+
+    assert game.game_over
+
+    assert game.get_reward(constants.WHITE) == constants.WIN_REWARD
+    assert game.get_reward(constants.BLACK) == constants.LOSS_REWARD
+
+    game = Game(5)
+    game.move(1, 0)
+    game.move(0, 0)
+    game.move(0, 1)
+
+    assert game.get_reward(constants.WHITE) == 0.5
+
+    assert game.get_reward(constants.BLACK) == -0.5
+
 if __name__ == "__main__":
     test_ko_rule()
     test_game_over()
+    test_reward()

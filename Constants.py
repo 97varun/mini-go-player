@@ -5,3 +5,6 @@ WHITE = 2
 CELL_TO_REP = {0: '.', 1: 'X', 2: 'O'}
 
 OTHER_STONE = {1: 2, 2: 1}
+
+WIN_REWARD = 100
+LOSS_REWARD = -100
