@@ -3,15 +3,13 @@ import constants
 import sys
 from functools import reduce
 
-sys.stdout = open("output.txt", "w")
-
 
 class Board:
     def __init__(self, N: int, state: int=None):
         self.size = N
 
         if state is None:
-            self.board = np.full((N, N), fill_value=constants.EMPTY, dtype=int)
+            self.board = np.full((N, N), fill_value=constants.EMPTY, dtype=np.int64)
         else:
             self.board = self.from_state(state)
 
@@ -122,14 +120,16 @@ class Board:
         return lib
 
     def to_state(self) -> int:
-        state: int = 0
+        state = 0
 
         for cord, stone in np.ndenumerate(self.board):
+            stone = int(stone)
+
             flat_index = cord[0] * self.size + cord[1]
 
             flat_index <<= 1
 
-            state |= stone << flat_index
+            state |= (stone << flat_index)
 
         return state
 
