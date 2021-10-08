@@ -7,9 +7,14 @@ sys.stdout = open("output.txt", "w")
 
 
 class Board:
-    def __init__(self, N):
+    def __init__(self, N: int, state: int=None):
         self.size = N
-        self.board = np.full((N, N), fill_value=constants.EMPTY, dtype=int)
+
+        if state is None:
+            self.board = np.full((N, N), fill_value=constants.EMPTY, dtype=int)
+        else:
+            self.board = self.from_state(state)
+
         self.curr_player = 0
         self.captured_stones = []
 
@@ -128,6 +133,15 @@ class Board:
 
         return state
 
+    def from_state(self, state: int):
+        mask = 3
+        board = []
+        
+        for cell in range(0, 49, 2):
+            board.append((state & (mask << cell)) >> cell)
+
+        return np.reshape(board, (5,5))
+
     def __str__(self) -> str:
         line = '-----\n'
         rep = line
@@ -195,8 +209,11 @@ def test_num_stones():
     assert board1.get_num_stones(constants.BLACK) == 3
     assert board1.get_num_stones(constants.WHITE) == 6
 
+def test_from_state():
+    assert Board(N=5, state=33555969).to_state() == 33555969
 
 if __name__ == "__main__":
     test_board_to_state()
     test_has_liberty()
     test_num_stones()
+    test_from_state()
