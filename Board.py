@@ -3,13 +3,17 @@ import constants
 import sys
 from functools import reduce
 
+import logging
+logger = logging.getLogger(__name__)
+
 
 class Board:
-    def __init__(self, N: int, state: int=None):
+    def __init__(self, N: int, state: int = None):
         self.size = N
 
         if state is None:
-            self.board = np.full((N, N), fill_value=constants.EMPTY, dtype=np.int64)
+            self.board = np.full(
+                (N, N), fill_value=constants.EMPTY, dtype=np.int64)
         else:
             self.board = self.from_state(state)
 
@@ -23,6 +27,9 @@ class Board:
 
         self.find_captured_stones(x, y)
 
+        self.captured_stones = list(filter(
+            lambda cord: self.board[cord] == constants.OTHER_STONE[stone], self.captured_stones))
+
         self.remove_captured_stones()
 
         self.last_move = (x, y, stone)
@@ -35,12 +42,11 @@ class Board:
         self.liberty = np.zeros((self.size, self.size), dtype=bool)
         self.visited = np.zeros((self.size, self.size), dtype=bool)
 
-        neighbors = [(x - 1, y), (x, y - 1), (x + 1, y), (x, y + 1)]
+        for cord, stone in np.ndenumerate(self.board):
+            if not (self.visited[cord] or (self.board[cord] == constants.EMPTY)):
+                self.liberty_dfs(*cord, stone)
 
-        neighbors = filter(lambda x: self.valid2(*x), neighbors)
-
-        for neighbor in neighbors:
-            self.liberty_dfs(*neighbor, self.board[neighbor])
+        logger.debug(f'self.libery:-\n{self.liberty}')
 
     def remove_stone(self, x: int, y: int) -> None:
         self.board[x][y] = constants.EMPTY
@@ -92,14 +98,14 @@ class Board:
 
         curr_stone = self.board[x][y]
 
-        if self.visited[x, y]:
-            return self.liberty[x, y]
-
         if curr_stone == constants.EMPTY:
             return True
 
         if curr_stone != stone:
             return False
+
+        if self.visited[x, y]:
+            return self.liberty[x, y]
 
         self.visited[x, y] = True
 
@@ -136,11 +142,11 @@ class Board:
     def from_state(self, state: int):
         mask = 3
         board = []
-        
+
         for cell in range(0, 49, 2):
             board.append((state & (mask << cell)) >> cell)
 
-        return np.reshape(board, (5,5))
+        return np.reshape(board, (5, 5))
 
     def __str__(self) -> str:
         line = '-----\n'
@@ -160,6 +166,7 @@ class Board:
 
     def empty(self, x: int, y: int) -> bool:
         return self.board[x, y] == constants.EMPTY
+
 
 def test_board_to_state():
     board = Board(5)
@@ -183,19 +190,13 @@ def get_board_with_pieces(black_stones: list[int], white_stones: list[int]) -> B
 
 
 def test_has_liberty():
-    black_stones = [[0, 3], [1, 0], [1, 3], [2, 1], [2, 2], [3, 0]]
-    white_stones = [[1, 1], [1, 2], [1, 4], [2, 3], [3, 1], [3, 2]]
-
-    board1 = get_board_with_pieces(black_stones, white_stones)
+    board1 = Board(N=5, state=44179170368)
 
     assert board1.has_liberty(2, 0, constants.WHITE)
 
     board1.place_stone(2, 0, constants.WHITE)
 
-    black_stones = [[0, 3], [1, 0], [1, 3], [3, 0]]
-    white_stones = [[1, 1], [1, 2], [1, 4], [2, 3], [3, 1], [3, 2], [2, 0]]
-
-    board2 = get_board_with_pieces(black_stones, white_stones)
+    board2 = Board(N=5, state=44160296000)
 
     assert board1.to_state() == board2.to_state()
 
@@ -209,11 +210,13 @@ def test_num_stones():
     assert board1.get_num_stones(constants.BLACK) == 3
     assert board1.get_num_stones(constants.WHITE) == 6
 
+
 def test_from_state():
     assert Board(N=5, state=33555969).to_state() == 33555969
 
+
 if __name__ == "__main__":
-    test_board_to_state()
+    # test_board_to_state()
     test_has_liberty()
-    test_num_stones()
-    test_from_state()
+    # test_num_stones()
+    # test_from_state()
