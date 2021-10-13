@@ -6,16 +6,15 @@ from functools import reduce
 import logging
 logger = logging.getLogger(__name__)
 
+logging.basicConfig(filename='board.log', level=logging.INFO)
+
 
 class Board:
-    def __init__(self, N: int, state: int = None):
+    def __init__(self, N: int, state: int=0):
         self.size = N
 
-        if state is None:
-            self.board = np.full(
-                (N, N), fill_value=constants.EMPTY, dtype=np.int64)
-        else:
-            self.board = self.from_state(state)
+        self.state = state
+        self.board = self.from_state(state)
 
         self.curr_player = 0
         self.captured_stones = []
@@ -143,10 +142,10 @@ class Board:
         mask = 3
         board = []
 
-        for cell in range(0, 49, 2):
+        for cell in range(0, 2 * (self.size ** 2), 2):
             board.append((state & (mask << cell)) >> cell)
 
-        return np.reshape(board, (5, 5))
+        return np.reshape(board, (self.size, self.size))
 
     def __str__(self) -> str:
         line = '-----\n'
@@ -216,7 +215,7 @@ def test_from_state():
 
 
 if __name__ == "__main__":
-    # test_board_to_state()
+    test_board_to_state()
     test_has_liberty()
-    # test_num_stones()
-    # test_from_state()
+    test_num_stones()
+    test_from_state()
