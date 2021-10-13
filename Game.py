@@ -3,15 +3,13 @@ import constants
 from board import *
 import sys
 
-sys.stdout = open("output.txt", "w")
-
 
 class Game:
-    def __init__(self, N):
-        self.state = 0
+    def __init__(self, N: int, state: int=constants.CURR_PLAYER_BLACK):
+        self.curr_player = (state >> constants.PLAYER_POS)
+        self.state = state & ~(constants.MASK << constants.PLAYER_POS)
         self.parent_state = 0
-        self.curr_player = constants.BLACK
-        self.board = Board(N)
+        self.board = Board(N, state=state)
         self.komi = N / 2
         self.num_moves = 0
         self.size = N
@@ -93,11 +91,13 @@ class Game:
         return score_diff if player == constants.BLACK else -score_diff
 
     def get_possible_moves(self):
-        actions = np.arange(-1, 25)
+        actions = np.arange(-1, self.size ** 2)
         legal_actions = np.fromiter(
             filter(lambda action: self.legal_move(action), actions), dtype=int)
         return legal_actions
 
+    def get_state(self):
+        return self.state | (self.curr_player << constants.PLAYER_POS)
 
 def test_ko_rule():
     black_stones = [[1, 2], [2, 1], [2, 3], [3, 2]]
