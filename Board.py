@@ -6,7 +6,7 @@ from functools import reduce
 import logging
 logger = logging.getLogger(__name__)
 
-logging.basicConfig(filename='board.log', level=logging.INFO)
+logging.basicConfig(filename='board.log', level=logging.DEBUG)
 
 
 class Board:
@@ -88,6 +88,8 @@ class Board:
         liberty = reduce(lambda x, y: (x or y), neighbors_liberty)
 
         self.board[x][y] = constants.EMPTY
+
+        logger.debug(f'self.libery:-\n{self.liberty}')
 
         return liberty
 
@@ -176,7 +178,7 @@ def test_board_to_state():
     assert board.to_state() == 6
 
 
-def get_board_with_pieces(black_stones: list[int], white_stones: list[int]) -> Board:
+def get_board_with_pieces(black_stones, white_stones) -> Board:
     board = Board(5)
 
     for stone in black_stones:
@@ -214,8 +216,15 @@ def test_from_state():
     assert Board(N=5, state=33555969).to_state() == 33555969
 
 
+def test_liberty():
+    state = 99327865629014
+    b = Board(N=5, state=state)
+    print(b.has_liberty(4, 4, 2))
+
+
 if __name__ == "__main__":
     test_board_to_state()
     test_has_liberty()
     test_num_stones()
     test_from_state()
+    test_liberty()
