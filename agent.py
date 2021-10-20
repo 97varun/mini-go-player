@@ -182,6 +182,17 @@ class RLAgent:
         self.save_epsilon()
         self.save_q_values()
 
+    def flip_colors(state: int) -> int:
+        flipped_state = 0
+
+        for cell in range(0, 2 * (constants.BOARD_SIZE ** 2), 2):
+            stone = (constants.MASK << cell) >> cell
+
+            if stone != constants.EMPTY:
+                flipped_state |= (constants.OTHER_STONE[stone] << cell)
+
+        return flipped_state
+
     def save_q_values(self) -> None:
         with open(constants.Q_TABLE_FILENAME, 'wb') as fp:
             pickle.dump(self.q, fp)
@@ -202,6 +213,14 @@ class RLAgent:
     def load_epsilon(self) -> None:
         with open(constants.EPSILON_FILENAME, 'r') as fp:
             self.epsilon = float(fp.read())
+
+
+def test_flip_colors():
+    state = 141750845600
+
+    game = Game(constants.BOARD_SIZE, game_state=state)
+
+    print(game)
 
 
 def train_rl_agent():
