@@ -23,6 +23,8 @@ class Game:
         self.curr_player = (game_state >> constants.PLAYER_POS)
         if self.curr_player == 0:
             self.curr_player = constants.BLACK
+        
+        self.first_player = self.curr_player
 
         self.komi = N / 2
         self.num_moves = 0
@@ -188,18 +190,19 @@ class Game:
         if self.num_moves == constants.MAX_MOVES:
             self.game_over = True
 
-    def get_reward(self, player):
-        black_score = self.get_num_stones(constants.BLACK)
-        white_score = self.get_num_stones(constants.WHITE) + self.komi
+    def get_reward(self, curr_player):
+        players = [constants.BLACK, constants.WHITE]
+        score = {player: self.get_num_stones(player) for player in players}
+        
+        score[self.first_player] += self.komi
 
         if self.game_over:
-            winner = np.argmax([black_score, white_score]) + 1
+            winner = np.argmax([score[constants.BLACK], score[constants.WHITE]]) + 1
+            return constants.WIN_REWARD if curr_player == winner else constants.LOSS_REWARD
 
-            return constants.WIN_REWARD if player == winner else constants.LOSS_REWARD
+        score_diff = score[constants.BLACK] - score[constants.WHITE]
 
-        score_diff = black_score - white_score
-
-        return score_diff if player == constants.BLACK else -score_diff
+        return score_diff if curr_player == constants.BLACK else -score_diff
 
     def get_possible_moves(self):
         actions = np.arange(0, self.size ** 2)
