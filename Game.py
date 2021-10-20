@@ -1,85 +1,196 @@
 import numpy as np
 import constants
-from board import *
-import sys
+from functools import reduce
+from copy import deepcopy
+
+import logging
+
+logger = logging.getLogger(__name__)
+logger.addHandler(logging.FileHandler('game.log'))
+logger.setLevel(logging.INFO)
+logger.propagate = False
 
 
 class Game:
-    def __init__(self, N: int, state: int=constants.CURR_PLAYER_BLACK):
-        self.curr_player = (state >> constants.PLAYER_POS)
-        self.state = state & ~(constants.MASK << constants.PLAYER_POS)
-        self.parent_state = 0
-        self.board = Board(N, state=state)
+    def __init__(self, N: int, game_state: int=0):
+        self.size = N
+        self.parent_board_state = -1
+        self.board_state = game_state & ~(
+            constants.MASK << constants.PLAYER_POS)
+        self.board = self.from_state(self.board_state)
+        self.captured_stones = []
+
+        self.curr_player = (game_state >> constants.PLAYER_POS)
+        if self.curr_player == 0:
+            self.curr_player = constants.BLACK
+
         self.komi = N / 2
         self.num_moves = 0
-        self.size = N
         self.game_over = False
 
-    def move(self, a: int) -> bool:
-        # pass
-        if a < 0:
-            return self.move2(None, None)
+    def place_stone(self, x: int, y: int, stone: int) -> None:
+        self.board[x][y] = stone
 
-        return self.move2(a // self.size, a % self.size)
+        self.captured_stones = []
+        self.find_captured_stones(stone)
 
-    def move2(self, x: int, y: int) -> bool:
-        # two consecutive pass
-        if (x == None or y == None) and self.state == self.parent_state:
-            self.game_over = True
+        logger.debug(f'self.captured_stones: {self.captured_stones}')
 
-        if not self.legal_move2(x, y):
-            success = False
+        self.remove_captured_stones()
+
+        self.parent_board_state = self.board_state
+        self.board_state = self.to_state()
+
+    def find_captured_stones(self, played_stone) -> None:
+        for cord, stone in np.ndenumerate(self.board):
+            if self.board[cord] != constants.EMPTY:
+                logger.debug(f'{cord}')
+                self.has_liberty(*cord, stone)
+                logger.debug(f'{cord}')
+
+            if not self.liberty[cord]:
+                self.captured_stones.append(cord)
+
+        logger.debug(f'self.liberty: {self.liberty}')
+
+        self.captured_stones = list(filter(
+            lambda cord: self.board[cord] == constants.OTHER_STONE[played_stone], self.captured_stones))
+
+    def remove_captured_stones(self) -> None:
+        for stone in self.captured_stones:
+            self.board[stone] = constants.EMPTY
+
+    def legal_placement(self, x: int, y: int, stone: int) -> bool:
+        if self.board[x, y] != constants.EMPTY:
+            return False
+
+        # has liberty initially
+        self.board[x, y] = stone
+        if self.has_liberty(x, y, stone):
+            self.board[x, y] = constants.EMPTY
+            return True
+        self.board[x, y] = constants.EMPTY
+
+        # place stone in copy of board and check liberty and ko rule
+        board_copy = deepcopy(self)
+        board_copy.place_stone(x, y, stone)
+        logger.debug(f'board_copy: {board_copy}')
+        if board_copy.has_liberty(x, y, stone) and board_copy.board_state != self.parent_board_state:
+            return True
+
+        return False
+
+    def has_liberty(self, x: int, y: int, stone: int):
+        self.liberty = np.zeros((self.size, self.size), dtype=bool)
+        self.visited = np.zeros((self.size, self.size), dtype=bool)
+
+        return self.find_liberty(x, y)
+
+    def find_liberty(self, x: int, y: int) -> int:
+        curr_stone = self.board[x, y]
+
+        if curr_stone == constants.EMPTY:
+            return True
+
+        if self.visited[x, y]:
+            return self.liberty[x, y]
+
+        self.visited[x, y] = True
+
+        neighbors = list(self.get_friend_neighbors(x, y, curr_stone))
+
+        neighbors_liberty = map(
+            lambda neighbor: self.find_liberty(*neighbor), neighbors)
+
+        self.liberty[x, y] = reduce(
+            lambda x, y: (x or y), neighbors_liberty, False)
+
+        logger.debug(
+            f'x: {x}, y: {y}, neighbors: {neighbors}, liberty: {self.liberty[x, y]}')
+
+        return self.liberty[x, y]
+
+    def get_friend_neighbors(self, x: int, y: int, stone: int):
+        neighbors = []
+        if x > 0:
+            neighbors.append((x - 1, y))
+        if y > 0:
+            neighbors.append((x, y - 1))
+        if x < self.size - 1:
+            neighbors.append((x + 1, y))
+        if y < self.size - 1:
+            neighbors.append((x, y + 1))
+
+        neighbors = filter(
+            lambda neighbor: self.board[neighbor] != constants.OTHER_STONE[stone], neighbors)
+
+        return neighbors
+
+    def get_game_state(self):
+        return self.board_state | (self.curr_player << constants.PLAYER_POS)
+
+    def get_board_state(self):
+        return self.board_state
+
+    def to_state(self) -> int:
+        state = 0
+
+        for cord, stone in np.ndenumerate(self.board):
+            flat_index = cord[0] * self.size + cord[1]
+            flat_index <<= 1
+            state |= (int(stone) << flat_index)
+
+        return state
+
+    def from_state(self, state: int):
+        board = []
+
+        for cell in range(0, 2 * (self.size ** 2), 2):
+            board.append((state & (constants.MASK << cell)) >> cell)
+
+        return np.reshape(board, (self.size, self.size)).astype(np.int64)
+
+    def __str__(self) -> str:
+        line = '-----\n'
+        rep = line
+
+        for i in range(self.size):
+            for j in range(self.size):
+                rep += constants.CELL_TO_REP[self.board[i][j]]
+            rep += '\n'
+
+        rep += line
+
+        return rep
+
+    def get_num_stones(self, stone: int) -> int:
+        return len(np.where(self.board == stone)[0])
+
+    def move(self, a: int) -> None:
+        # Pass
+        if a == -1:
+            # Two consecutive passes
+            logger.debug(
+                f'self.board_state: {self.board_state}, self.parent_board_state: {self.parent_board_state}')
+            if self.board_state == self.parent_board_state:
+                self.game_over = True
+
+            self.parent_board_state = self.board_state
         else:
-            success = True
-
-            if not(x == None or y == None):
-                self.board.place_stone(x, y, self.curr_player)
-
-        self.parent_state = self.state
-        self.state = self.board.to_state()
+            x, y = a // self.size, a % self.size
+            if self.legal_placement(x, y, self.curr_player):
+                self.place_stone(x, y, self.curr_player)
 
         self.curr_player = constants.OTHER_STONE[self.curr_player]
         self.num_moves += 1
 
         # max moves
-        if self.num_moves == self.size ** 2 - 1:
+        if self.num_moves == constants.MAX_MOVES:
             self.game_over = True
 
-        return success
-
-    def legal_move(self, a: int) -> bool:
-        if a < 0:
-            return self.legal_move2(None, None)
-
-        return self.legal_move2(a // self.size, a % self.size)
-
-    def legal_move2(self, x: int, y: int):
-        # pass
-        if x == None or y == None:
-            return True
-
-        if not self.board.empty(x, y):
-            return False
-
-        liberty = self.check_liberty_rule(x, y)
-
-        self.board.place_stone(x, y, self.curr_player)
-
-        ko = self.check_ko_rule(x, y)
-
-        self.board.remove_last_stone()
-
-        return liberty and not ko
-
-    def check_liberty_rule(self, x: int, y: int) -> bool:
-        return self.board.has_liberty(x, y, self.curr_player)
-
-    def check_ko_rule(self, x: int, y: int) -> bool:
-        return self.board.to_state() == self.parent_state
-
     def get_reward(self, player):
-        black_score = self.board.get_num_stones(constants.BLACK)
-        white_score = self.board.get_num_stones(constants.WHITE) + self.komi
+        black_score = self.get_num_stones(constants.BLACK)
+        white_score = self.get_num_stones(constants.WHITE) + self.komi
 
         if self.game_over:
             winner = np.argmax([black_score, white_score]) + 1
@@ -91,48 +202,82 @@ class Game:
         return score_diff if player == constants.BLACK else -score_diff
 
     def get_possible_moves(self):
-        actions = np.arange(-1, self.size ** 2)
+        actions = np.arange(0, self.size ** 2)
         legal_actions = np.fromiter(
-            filter(lambda action: self.legal_move(action), actions), dtype=int)
+            filter(lambda action: self.legal_placement(action // self.size, action % self.size, self.curr_player), actions), dtype=int)
+        legal_actions = np.append(legal_actions, -1)
         return legal_actions
 
-    def get_state(self):
-        return self.state | (self.curr_player << constants.PLAYER_POS)
+
+def test_game_to_state():
+    game = Game(constants.BOARD_SIZE)
+
+    game.move(1)
+    game.move(0)
+
+    assert game.get_game_state() == (6 | (constants.BLACK << constants.PLAYER_POS))
+
+
+def get_game_from_moves(moves) -> Game:
+    game = Game(constants.BOARD_SIZE)
+
+    for mov in moves:
+        game.move(constants.BOARD_SIZE * mov[0] + mov[1])
+
+    return game
+
+
+def test_has_liberty():
+    game1 = Game(N=constants.BOARD_SIZE, game_state=44179170368 | (
+        constants.WHITE << constants.PLAYER_POS))
+    assert game1.legal_placement(2, 0, constants.WHITE)
+
+    game1.move(10)
+    game2 = Game(N=5, game_state=44160296000)
+    assert game1.board_state == game2.board_state
+
+
+def test_from_state():
+    assert Game(N=constants.BOARD_SIZE,
+                game_state=33555969).board_state == 33555969
+
+
+def test_liberty():
+    state = 99327865629014
+    g = Game(N=constants.BOARD_SIZE, game_state=state |
+             (constants.WHITE << constants.PLAYER_POS))
+    assert not g.legal_placement(4, 4, 2)
+
+    state = 591711615346005
+    g = Game(N=constants.BOARD_SIZE, game_state=state |
+             (constants.BLACK << constants.PLAYER_POS))
+    assert not g.legal_placement(4, 3, 1)
 
 def test_ko_rule():
-    black_stones = [[1, 2], [2, 1], [2, 3], [3, 2]]
-    white_stones = [[1, 3], [2, 4], [3, 3]]
+    moves = [[1, 2], [1, 3], [2, 1], [2, 4], [2, 3], [3, 3], [3, 2]]
+    game = get_game_from_moves(moves)
 
-    board1 = get_board_with_pieces(black_stones, white_stones)
-
-    game = Game(5)
-    game.board = board1
-    game.state = board1.to_state()
-    game.curr_player = constants.WHITE
-
-    legal = game.move2(2, 2)
-
+    legal = game.legal_placement(2, 2, constants.WHITE)
+    game.move(12)
     assert legal
 
-    legal = game.move2(2, 3)
-
+    legal = game.legal_placement(2, 3, constants.BLACK)
     assert not legal
 
 
 def test_game_over():
-    game = Game(5)
+    game = Game(constants.BOARD_SIZE)
 
-    game.move2(None, None)
-
-    game.move2(None, None)
+    game.move(-1)
+    game.move(-1)
 
     assert game.game_over
 
 
 def test_reward():
     game = Game(5)
-    game.move2(None, None)
-    game.move2(None, None)
+    game.move(-1)
+    game.move(-1)
 
     assert game.game_over
 
@@ -140,9 +285,9 @@ def test_reward():
     assert game.get_reward(constants.BLACK) == constants.LOSS_REWARD
 
     game = Game(5)
-    game.move2(1, 0)
-    game.move2(0, 0)
-    game.move2(0, 1)
+    game.move(5)
+    game.move(0)
+    game.move(1)
 
     assert game.get_reward(constants.WHITE) == 0.5
 
@@ -150,15 +295,8 @@ def test_reward():
 
 
 def test_get_possible_moves():
-    black_stones = [[1, 2], [2, 1], [2, 3], [3, 2]]
-    white_stones = [[1, 3], [2, 4], [3, 3]]
-
-    board1 = get_board_with_pieces(black_stones, white_stones)
-
-    game = Game(5)
-    game.board = board1
-    game.state = board1.to_state()
-    game.curr_player = constants.WHITE
+    moves = [[1, 2], [1, 3], [2, 1], [2, 4], [2, 3], [3, 3], [3, 2]]
+    game = get_game_from_moves(moves)
 
     expected_possible_moves = np.array(
         [-1, 0, 1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 16, 19, 20, 21, 22, 23, 24])
@@ -167,8 +305,11 @@ def test_get_possible_moves():
 
 
 if __name__ == "__main__":
+    test_game_to_state()
+    test_has_liberty()
+    test_from_state()
+    test_liberty()
     test_ko_rule()
     test_game_over()
     test_reward()
     test_get_possible_moves()
-    print("Tests successful")
