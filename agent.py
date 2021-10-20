@@ -96,7 +96,7 @@ class RLAgent:
         self.alpha = 0.1
         self.epsilon_cutoff = 0.05
         self.epsilon = epsilon
-        self.epsilon_decay = 0.9999
+        self.epsilon_decay = 0.999954
 
         self.last_game = []
 
@@ -125,9 +125,15 @@ class RLAgent:
 
             logger.debug(
                 f'next_state: {next_state}, next_action: {next_action}')
-            
-            self.last_game.append(
-                (curr_state, curr_action, next_state, next_action, reward))
+
+            if player == constants.WHITE:
+                last_observation = (self.flip_colors(curr_state), curr_action,
+                                    next_state, next_action, reward)
+            else:
+                last_observation = (curr_state, curr_action,
+                                    self.flip_colors(next_state), next_action, reward)
+
+            self.last_game.append(last_observation)
 
             curr_state = next_state
             curr_action = next_action
@@ -229,7 +235,7 @@ def train_rl_agent():
     import time
     start_time = time.time()
 
-    agent.learn()
+    agent.learn(num_episodes=100000)
 
     print(time.time() - start_time)
 
@@ -247,3 +253,4 @@ def test_minimax_play_game():
 
 if __name__ == "__main__":
     train_rl_agent()
+    # test_flip_colors()
