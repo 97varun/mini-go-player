@@ -166,8 +166,10 @@ class RLAgent:
         if self.game.curr_player == constants.WHITE:
             curr_state = self.flip_colors(curr_state)
 
-        possible_q_values = np.array(
-            map(lambda action: self.q.get(curr_state, {}).get(action, 0.0), possible_actions))
+        possible_q_values = np.fromiter(
+            map(lambda action: self.q.get(curr_state, {}).get(action, 0.0), possible_actions),
+            dtype=float
+        )
 
         return int(possible_actions[np.argmax(possible_q_values)])
 
