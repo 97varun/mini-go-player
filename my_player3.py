@@ -31,13 +31,15 @@ def to_state(board: np.array) -> int:
 def get_board(curr_player: int):
     board = []
 
-    def color_correction(stone): return constants.OTHER_STONE[int(
-        stone)] if curr_player == constants.WHITE else int(stone)
-
     for _ in range(constants.BOARD_SIZE):
         board.append(
             list(
-                map(color_correction, list(input()))
+                map(
+                    lambda stone:
+                        constants.OTHER_STONE[int(stone)] if curr_player == constants.WHITE
+                        else int(stone), 
+                    list(input())
+                )
             )
         )
 
@@ -63,7 +65,7 @@ def get_next_move_from_rl_agent(curr_state: int):
     if (curr_state not in rl_agent.q) or len(rl_agent.q[curr_state]) < 4:
         # I don't know, taking help from alpha-beta agent
         return get_next_move_from_ab_agent(game)
-    
+
     action = rl_agent.get_next_action()
     return action
 
