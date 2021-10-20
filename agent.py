@@ -37,7 +37,7 @@ class AlphaBetaAgent:
         if game.game_over or depth == self.max_depth:
             logger.debug('max_value: game over!')
 
-            return (game.get_reward(self.player), constants.NO_ACTION)
+            return (game.get_score(self.player), constants.NO_ACTION)
 
         possible_next_actions = game.get_possible_moves()
 
@@ -64,7 +64,7 @@ class AlphaBetaAgent:
         if game.game_over or depth == self.max_depth:
             logger.debug('min_value: game over!')
 
-            return (game.get_reward(self.player), constants.NO_ACTION)
+            return (game.get_score(self.player), constants.NO_ACTION)
 
         possible_next_actions = game.get_possible_moves()
 
@@ -93,10 +93,10 @@ class RLAgent:
 
         self.game = game
 
-        self.alpha = 0.1
+        self.alpha = 0.5
         self.epsilon_cutoff = 0.05
         self.epsilon = epsilon
-        self.epsilon_decay = 0.999954
+        self.epsilon_decay = 0.99985
 
         self.last_game = []
 
@@ -157,10 +157,14 @@ class RLAgent:
 
         possible_actions = self.game.get_possible_moves()
 
-        if np.random.random() < self.epsilon:
-            return int(np.random.choice(possible_actions, 1)[0])
-
         logger.debug(f'possible_actions: {possible_actions}')
+
+        if np.random.random() < self.epsilon:
+            rand_idx = np.random.randint(0, len(possible_actions))
+            return int(possible_actions[rand_idx])
+
+        if self.game.curr_player == constants.WHITE:
+            curr_state = self.flip_colors(curr_state)
 
         possible_q_values = np.array(
             map(lambda action: self.q.get(curr_state, {}).get(action, 0.0), possible_actions))
@@ -235,7 +239,7 @@ def train_rl_agent():
     import time
     start_time = time.time()
 
-    agent.learn(num_episodes=100000)
+    agent.learn(num_episodes=30000)
 
     print(time.time() - start_time)
 
