@@ -6,8 +6,8 @@ CELL_TO_REP = {0: '.', 1: 'X', 2: 'O'}
 
 OTHER_STONE = {1: 2, 2: 1, 0: 0}
 
-WIN_REWARD = 100
-LOSS_REWARD = -100
+WIN_REWARD = 1
+LOSS_REWARD = -1
 
 MASK = 3
 PLAYER_POS = 50
