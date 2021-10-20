@@ -60,7 +60,7 @@ def get_next_move_from_rl_agent(curr_state: int):
     game = Game(constants.BOARD_SIZE, game_state=curr_state)
     rl_agent = RLAgent(epsilon=0.0, game=game)
 
-    if curr_state not in rl_agent.q:
+    if (curr_state not in rl_agent.q) or len(rl_agent.q[curr_state]) < 4:
         # I don't know, taking help from alpha-beta agent
         return get_next_move_from_ab_agent(game)
     
@@ -68,8 +68,8 @@ def get_next_move_from_rl_agent(curr_state: int):
     return action
 
 
-def get_next_move_from_ab_agent():
-    ab_agent = AlphaBetaAgent(max_depth=constants)
+def get_next_move_from_ab_agent(game):
+    ab_agent = AlphaBetaAgent(max_depth=constants.MAX_DEPTH)
     action = ab_agent.search(game)
     return action
 
@@ -87,8 +87,6 @@ if __name__ == '__main__':
 
     if curr_state == 0:
         put_num_moves(0)
-
-    print(curr_state)
 
     game = Game(constants.BOARD_SIZE, curr_state |
                 curr_player << constants.PLAYER_POS)
