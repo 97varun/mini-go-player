@@ -85,6 +85,8 @@ if __name__ == '__main__':
 
     curr_player = constants.OTHER_STONE[curr_player]
 
+    logger.debug(f'{curr_state}: curr_state')
+
     if curr_state == 0:
         put_num_moves(0)
 
@@ -95,8 +97,8 @@ if __name__ == '__main__':
 
     action = get_next_move_from_rl_agent(curr_state)
 
-    logging.info(f'action: {action}')
-    logging.info(f'board: {game.board}')
+    logger.debug(f'action: {action}')
+    logger.debug(f'board: {game.board}')
 
     put_num_moves(num_moves + 1)
 
