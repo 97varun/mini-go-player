@@ -182,11 +182,11 @@ class RLAgent:
         self.save_epsilon()
         self.save_q_values()
 
-    def flip_colors(state: int) -> int:
+    def flip_colors(self, state: int) -> int:
         flipped_state = 0
 
         for cell in range(0, 2 * (constants.BOARD_SIZE ** 2), 2):
-            stone = (constants.MASK << cell) >> cell
+            stone = (state & (constants.MASK << cell)) >> cell
 
             if stone != constants.EMPTY:
                 flipped_state |= (constants.OTHER_STONE[stone] << cell)
@@ -202,7 +202,7 @@ class RLAgent:
             with open(constants.Q_TABLE_FILENAME, 'wb') as fp:
                 empty_dict = {}
                 pickle.dump(empty_dict, fp)
-        
+
         with open(constants.Q_TABLE_FILENAME, 'rb') as fp:
             self.q = pickle.load(fp)
 
