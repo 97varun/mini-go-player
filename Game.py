@@ -191,6 +191,17 @@ class Game:
             self.game_over = True
 
     def get_reward(self, curr_player):
+        if self.game_over:
+            players = [constants.BLACK, constants.WHITE]
+            score = {player: self.get_num_stones(player) for player in players}
+            
+            score[self.first_player] += self.komi
+            winner = np.argmax([score[constants.BLACK], score[constants.WHITE]]) + 1
+            return constants.WIN_REWARD if curr_player == winner else constants.LOSS_REWARD
+        
+        return 0    
+
+    def get_score(self, curr_player):
         players = [constants.BLACK, constants.WHITE]
         score = {player: self.get_num_stones(player) for player in players}
         
