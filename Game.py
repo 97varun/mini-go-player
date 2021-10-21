@@ -12,9 +12,11 @@ logger.propagate = False
 
 
 class Game:
-    def __init__(self, N: int, game_state: int=0):
+    def __init__(self, N: int, game_state: int=0, prev_board_state: int=-1):
         self.size = N
-        self.parent_board_state = -1
+        
+        self.parent_board_state = prev_board_state
+        
         self.board_state = game_state & ~(
             constants.MASK << constants.PLAYER_POS)
         self.board = self.from_state(self.board_state)
@@ -23,7 +25,7 @@ class Game:
         self.curr_player = (game_state >> constants.PLAYER_POS)
         if self.curr_player == 0:
             self.curr_player = constants.BLACK
-        
+
         self.first_player = self.curr_player
 
         self.komi = N / 2
@@ -194,22 +196,22 @@ class Game:
         if self.game_over:
             players = [constants.BLACK, constants.WHITE]
             score = {player: self.get_num_stones(player) for player in players}
-            
+
             score[self.first_player] += self.komi
-            winner = np.argmax([score[constants.BLACK], score[constants.WHITE]]) + 1
+            winner = np.argmax(
+                [score[constants.BLACK], score[constants.WHITE]]) + 1
             return constants.WIN_REWARD if curr_player == winner else constants.LOSS_REWARD
-        
-        return 0    
+
+        return 0
 
     def get_score(self, curr_player):
         players = [constants.BLACK, constants.WHITE]
         score = {player: self.get_num_stones(player) for player in players}
-        
-        score[self.first_player] += self.komi
 
         if self.game_over:
-            winner = np.argmax([score[constants.BLACK], score[constants.WHITE]]) + 1
-            return constants.WIN_REWARD if curr_player == winner else constants.LOSS_REWARD
+            winner = np.argmax(
+                [score[constants.BLACK], score[constants.WHITE]]) + 1
+            return constants.WIN_SCORE if curr_player == winner else constants.LOSS_SCORE
 
         score_diff = score[constants.BLACK] - score[constants.WHITE]
 
@@ -266,6 +268,7 @@ def test_liberty():
     g = Game(N=constants.BOARD_SIZE, game_state=state |
              (constants.BLACK << constants.PLAYER_POS))
     assert not g.legal_placement(4, 3, 1)
+
 
 def test_ko_rule():
     moves = [[1, 2], [1, 3], [2, 1], [2, 4], [2, 3], [3, 3], [3, 2]]
