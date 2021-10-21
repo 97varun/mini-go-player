@@ -82,6 +82,9 @@ if __name__ == '__main__':
     prev_board = get_board(curr_player)
     prev_state = to_state(prev_board)
 
+    if prev_state == 0:
+        prev_state = -1
+
     curr_board = get_board(curr_player)
     curr_state = to_state(curr_board)
 
@@ -92,8 +95,9 @@ if __name__ == '__main__':
     if curr_state == 0:
         put_num_moves(0)
 
-    game = Game(constants.BOARD_SIZE, curr_state |
-                curr_player << constants.PLAYER_POS)
+    curr_state |= (constants.BLACK << constants.PLAYER_POS)
+
+    game = Game(constants.BOARD_SIZE, game_state=curr_state, prev_board_state=prev_state)
 
     num_moves = get_num_moves()
 
