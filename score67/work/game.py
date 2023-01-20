@@ -12,16 +12,11 @@ logger.propagate = False
 
 
 class Game:
-    def __init__(self, N: int, 
-        game_state: int = 0, 
-        prev_board_state: int = -1,
-        num_moves: int = 0,
-        first_player: int = constants.BLACK):
-        
+    def __init__(self, N: int, game_state: int=0, prev_board_state: int=-1):
         self.size = N
-
+        
         self.parent_board_state = prev_board_state
-
+        
         self.board_state = game_state & ~(
             constants.MASK << constants.PLAYER_POS)
         self.board = self.from_state(self.board_state)
@@ -31,24 +26,24 @@ class Game:
         if self.curr_player == 0:
             self.curr_player = constants.BLACK
 
-        self.first_player = first_player
+        self.first_player = self.curr_player
 
         self.komi = N / 2
-        self.num_moves = num_moves
+        self.num_moves = 0
         self.game_over = False
 
         self.num_captured_stones = {constants.BLACK: 0, constants.WHITE: 0}
-        self.cell_score = {constants.BLACK: [0, 0], constants.WHITE: [0, 0]}
-        self.liberty_score = {constants.BLACK: [0, 0], constants.WHITE: [0, 0]}
-        self.component_score = {constants.BLACK: [0, 0], constants.WHITE: [0, 0]}
+        self.cell_score = {constants.BLACK: 0, constants.WHITE: 0}
 
     def place_stone(self, x: int, y: int, stone: int) -> None:
         self.board[x][y] = stone
 
+        self.cell_score[stone] += self.get_cell_score(x, y)
+
         self.captured_stones = []
         self.find_captured_stones(stone)
 
-        self.num_captured_stones[stone] = len(self.captured_stones)
+        self.num_captured_stones[stone] += len(self.captured_stones)
 
         logger.debug(f'self.captured_stones: {self.captured_stones}')
 
@@ -58,8 +53,6 @@ class Game:
         self.board_state = self.to_state()
 
     def find_captured_stones(self, played_stone) -> None:
-        self.liberty_score = {constants.BLACK: [0, 0], constants.WHITE: [0, 0]}
-
         for cord, stone in np.ndenumerate(self.board):
             if self.board[cord] != constants.EMPTY:
                 logger.debug(f'{cord}')
@@ -117,11 +110,8 @@ class Game:
 
         neighbors = list(self.get_friend_neighbors(x, y, curr_stone))
 
-        neighbors_liberty = list(map(
-            lambda neighbor: self.find_liberty(*neighbor), neighbors))
-
-        self.liberty_score[curr_stone][0] += sum(neighbors_liberty)
-        self.liberty_score[curr_stone][1] += len(neighbors_liberty)
+        neighbors_liberty = map(
+            lambda neighbor: self.find_liberty(*neighbor), neighbors)
 
         self.liberty[x, y] = reduce(
             lambda x, y: (x or y), neighbors_liberty, False)
@@ -214,7 +204,7 @@ class Game:
             players = [constants.BLACK, constants.WHITE]
             score = {player: self.get_num_stones(player) for player in players}
 
-            score[constants.OTHER_STONE[self.first_player]] += self.komi
+            score[self.first_player] += self.komi
             winner = np.argmax(
                 [score[constants.BLACK], score[constants.WHITE]]) + 1
             return constants.WIN_REWARD if curr_player == winner else constants.LOSS_REWARD
@@ -223,73 +213,38 @@ class Game:
 
     def get_score(self, curr_player):
         players = [constants.BLACK, constants.WHITE]
-        num_stones = {player: self.get_num_stones(player) for player in players}
-        score = deepcopy(num_stones)
-        
-        score[constants.OTHER_STONE[self.first_player]] += self.komi
+        score = {player: self.get_num_stones(player) for player in players}
 
         if self.game_over:
-            score_diff = score[constants.BLACK] - score[constants.WHITE]
-            score_diff = score_diff if curr_player == constants.BLACK else -score_diff
-
             winner = np.argmax(
                 [score[constants.BLACK], score[constants.WHITE]]) + 1
-            return constants.WIN_SCORE + score_diff if curr_player == winner else constants.LOSS_SCORE + score_diff
+            return constants.WIN_SCORE if curr_player == winner else constants.LOSS_SCORE
 
-        self.calculate_connected_component_score()
-        self.calculate_cell_score()
-        
         for player in players:
-            logger.debug(f'num_moves: {self.num_moves}, score[player]: {score[player]}')
-            
-            score[player] /= ((self.num_moves + 1) // 2 + (0 if player == self.first_player else self.komi))
-            score[player] *= 2
+            score[player] += 25 * self.num_captured_stones[player]
+            score[player] += self.cell_score[player]
 
-            if num_stones[player] == 0:
-                num_stones[player] = 1
-            
-            logger.info(f'cell_score: {self.cell_score[player][0]} / {constants.CELL_SCORE_PREFIX_SUM[num_stones[player]]}')
-            logger.info(f'cell_score: {self.cell_score[player][0] / constants.CELL_SCORE_PREFIX_SUM[num_stones[player]]}')
-            
-            score[player] += 0.25 * self.cell_score[player][0] / constants.CELL_SCORE_PREFIX_SUM[num_stones[player]]
-            
-            if self.liberty_score[player][1] == 0:
-                self.liberty_score[player][1] = 1
-
-            logger.info(f'lib_score: {self.liberty_score[player][0] / (self.liberty_score[player][1])}')
-
-            score[player] += 0.5 * self.liberty_score[player][0] / self.liberty_score[player][1]
-            
-            logger.info(f'comp_score: {(self.component_score[player][0] / (self.component_score[player][1])) / (num_stones[player])}')
-            
-            score[player] += (self.component_score[player][0] / (self.component_score[player][1])) / (num_stones[player])
-            
-            # score[player] += 2 * self.num_captured_stones[player] / (self.num_captured_stones[player] + num_stones[constants.OTHER_STONE[player]])
+        self.calculate_connected_component_score(score)
 
         score_diff = score[constants.BLACK] - score[constants.WHITE]
 
         return score_diff if curr_player == constants.BLACK else -score_diff
 
-    def calculate_connected_component_score(self):
+    def calculate_connected_component_score(self, score) -> int:
         self.visited = np.zeros((self.size, self.size), dtype=bool)
-        
-        self.component_score = {constants.BLACK: [0, 0], constants.WHITE: [0, 0]}
 
         for i in range(self.size):
             for j in range(self.size):
                 if self.visited[i, j] or (self.board[i, j] == constants.EMPTY):
                     continue
-
+                
                 stone = self.board[i, j]
                 component_size = self.find_connected_components(i, j, stone)
 
-                
-                self.component_score[stone][0] += component_size
-                self.component_score[stone][1] += 1
+                if component_size > 1:
+                    score[stone] += component_size
 
-        for player in [constants.BLACK, constants.WHITE]:
-            if self.component_score[player][1] == 0:
-                self.component_score[player][1] = 1
+        return score
 
     def find_connected_components(self, x: int, y: int, stone: int) -> int:
         if self.board[x, y] != stone:
@@ -308,20 +263,6 @@ class Game:
 
         return num_stone
 
-    def calculate_cell_score(self):
-        self.cell_score = {constants.BLACK: [0, 0], constants.WHITE: [0, 0]}
-
-        edges = [0, 4]
-
-        for x in range(self.size):
-            for y in range(self.size):
-                stone = self.board[x, y]
-                if stone == constants.EMPTY:
-                    continue
-
-                self.cell_score[stone][0] += constants.CELL_SCORES[x][y]
-                self.cell_score[stone][1] += 1
-
     def get_cell_score(self, x: int, y: int) -> int:
         edges = [0, 4]
 
@@ -332,11 +273,11 @@ class Game:
         else:
             return 2
 
+                
+        
+
     def get_possible_moves(self):
-        actions = np.array(
-            [12, 6, 7, 8, 11, 13, 16, 17, 18, 0, 1, 2, 3,
-                4, 5, 9, 10, 14, 15, 19, 20, 21, 22, 23, 24]
-        )
+        actions = np.arange(0, self.size ** 2)
         legal_actions = np.fromiter(
             filter(lambda action: self.legal_placement(action // self.size, action % self.size, self.curr_player), actions), dtype=int)
         legal_actions = np.append(legal_actions, -1)

@@ -1,0 +1,4182 @@
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.4053025245666504 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.5806138515472412 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.9305579662322998 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.0420913696289062 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.41745924949646 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.52754545211792 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.3590655326843262 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.6794531345367432 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.691521406173706 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.13936853408813477 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.016558408737182617 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.4891998767852783 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.56380295753479 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.9165010452270508 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.1565749645233154 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 0.7863187789916992 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.3531107902526855 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.1380691528320312 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 0.6518828868865967 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 0.900667667388916 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.9242370128631592 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.06520843505859375 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.21811294555664062 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.9218113422393799 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.5391030311584473 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.453547716140747 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.46903657913208 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.7704339027404785 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.1311397552490234 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.6803805828094482 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.7433512210845947 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.1647627353668213 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.012503862380981445 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.8157846927642822 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.9773635864257812 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 2.01654314994812 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.9554989337921143 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 3.1805217266082764 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.4769976139068604 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.6522247791290283 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.7131102085113525 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.4604823589324951 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.4313046932220459 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.0544743537902832 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.4938538074493408 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.6976277828216553 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 4.90917706489563 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 3.2281973361968994 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.3453865051269531 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 3.3212597370147705 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.7934343814849854 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.8055777549743652 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.7739992141723633 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.2841014862060547 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.021671533584594727 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.3058655261993408 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 2.6358509063720703 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.4088172912597656 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.6986773014068604 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.396970510482788 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 5.661813735961914 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 3.697026491165161 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.585061550140381 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.2435455322265625 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.5412042140960693 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08720135688781738 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.3656527996063232 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.6261086463928223 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.483827829360962 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.800016164779663 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.8113613128662109 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.038578748703003 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.7325308322906494 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.7467257976531982 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.7211441993713379 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.11762785911560059 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.01177835464477539 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.818483829498291 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.6434228420257568 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 2.286637544631958 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.2256536483764648 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.4999384880065918 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.4852631092071533 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.7932579517364502 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.400377035140991 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 3.054047107696533 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.815051794052124 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.07593584060668945 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.3693768978118896 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.0492193698883057 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.5067763328552246 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 4.439360618591309 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.4769656658172607 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.3871912956237793 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.6532256603240967 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.0555260181427002 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.5499958992004395 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.18536901473999023 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.014550209045410156 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.1417369842529297 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.7637121677398682 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.0689311027526855 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.7012598514556885 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 0.9150118827819824 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 0.7008066177368164 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 0.7468388080596924 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.315977096557617 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 2.5144920349121094 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.709526777267456 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.060442447662353516 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.40358662605285645 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.824836254119873 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.723426103591919 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.8208897113800049 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.5958170890808105 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.0880742073059082 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.3132848739624023 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.8828108310699463 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.8784067630767822 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.22481846809387207 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.018549680709838867 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.31113529205322266 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.6151280403137207 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.7948911190032959 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.0208759307861328 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.0163683891296387 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.1918070316314697 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.3181519508361816 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.118816375732422 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 3.2796108722686768 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 1.2085418701171875 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08081793785095215 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.6080329418182373 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.8396627902984619 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.5759482383728027 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.290963649749756 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.29388427734375 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.097134828567505 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.24452805519104 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.7309637069702148 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.077530860900879 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.19169235229492188 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.015819787979125977 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.7767102718353271 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.0567927360534668 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.6220543384552002 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.6792395114898682 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.5199527740478516 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.5912911891937256 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 0.6741592884063721 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.5403192043304443 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.6492211818695068 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.6633472442626953 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.07624316215515137 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.7073593139648438 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.8050777912139893 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.2576420307159424 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.8642075061798096 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.409367322921753 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.7704753875732422 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.2125561237335205 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.6885313987731934 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.1840159893035889 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.22092986106872559 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.02187633514404297 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.28697824478149414 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.4777817726135254 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.3693625926971436 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.9710369110107422 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.0377554893493652 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.1267447471618652 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.1184520721435547 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.7665894031524658 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 2.9770560264587402 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.5548553466796875 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.0793769359588623 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.26853060722351074 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.45862483978271484 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.188004493713379 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.8122892379760742 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.7134838104248047 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.2440578937530518 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.266218662261963 with depth 4
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.44422364234924316 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.9672291278839111 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.8006045818328857 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.6549293994903564 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.3362455368041992 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.3203322887420654 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 3.118687391281128 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.97672700881958 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.1992652416229248 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.8107650279998779 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.09327459335327148 with depth 5
+num_moves: 24, max_depth: 5
+alpha-beta agent took time 2.465514898300171 with depth 5
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.5753860473632812 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.9786858558654785 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.6608715057373047 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.6543076038360596 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.4812190532684326 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.8870730400085449 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.1112744808197021 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 0.9368510246276855 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.6109833717346191 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.433809757232666 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.22851157188415527 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.013927936553955078 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.29762792587280273 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.34252238273620605 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.7723925113677979 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.9649105072021484 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 0.49288463592529297 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.312100887298584 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.5964868068695068 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.8094489574432373 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.3714616298675537 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.36853861808776855 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.0564875602722168 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.2242224216461182 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 2.1570637226104736 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.073173761367798 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.1874337196350098 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.8378112316131592 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.965324878692627 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.9102692604064941 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.272991418838501 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.9639172554016113 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.18349552154541016 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.01992654800415039 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.2870829105377197 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.9312245845794678 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.2026278972625732 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.48331618309021 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.5629239082336426 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 3.5614960193634033 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.4023053646087646 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.3486013412475586 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 0.8525032997131348 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.5426042079925537 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.060138702392578125 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.4790372848510742 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 2.5056040287017822 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 3.384972333908081 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.9202697277069092 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.1456925868988037 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.301649570465088 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.2799510955810547 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.112671136856079 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.8200929164886475 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.21918392181396484 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.01736164093017578 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.7030124664306641 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.3153460025787354 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 2.0832417011260986 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.753046989440918 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.6554958820343018 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.103511095046997 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.2029271125793457 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.490541696548462 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 0.531813383102417 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.7707564830780029 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.09418511390686035 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.3467106819152832 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.2066175937652588 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.0307388305664062 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.1277656555175781 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.8218047618865967 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 0.926548957824707 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.3460323810577393 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.995582103729248 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.4073128700256348 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.2018415927886963 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.014544963836669922 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.4008066654205322 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.913273811340332 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.798290729522705 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.8139657974243164 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.1224498748779297 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.0892136096954346 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.9463486671447754 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.9689693450927734 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 2.183823347091675 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.7807531356811523 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.1033327579498291 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.2693924903869629 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.2524232864379883 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.351456880569458 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.5199851989746094 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.9117777347564697 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 0.6753644943237305 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.4573113918304443 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.6999950408935547 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.2694635391235352 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.23233890533447266 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.015193462371826172 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.1923685073852539 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.6632680892944336 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.0442731380462646 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.426865577697754 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.11537504196167 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 0.9051289558410645 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.1369986534118652 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.001586437225342 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 2.5075199604034424 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.9253749847412109 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.0788426399230957 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.9161384105682373 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 2.2276575565338135 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.50520658493042 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.4958317279815674 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.2173635959625244 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 0.37372708320617676 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 0.8772139549255371 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.136801242828369 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 2.47407865524292 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.3054225444793701 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.022610187530517578 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.6793146133422852 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.086719274520874 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.111851453781128 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.267108678817749 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 0.9431231021881104 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.963078498840332 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.2310268878936768 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.3356528282165527 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.0751819610595703 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.5408668518066406 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.07927846908569336 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.736327886581421 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 3.6912543773651123 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 3.6537814140319824 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 5.222215414047241 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 4.440186262130737 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.8567044734954834 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.7498855590820312 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.0114326477050781 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.7580597400665283 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.13692545890808105 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.012181758880615234 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.9111113548278809 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 2.1356282234191895 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 2.3959944248199463 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.6168291568756104 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.7573649883270264 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 3.8870506286621094 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 4.758293390274048 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.7136809825897217 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.6772716045379639 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.6409006118774414 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.06581735610961914 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.595869541168213 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.5049214363098145 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.1832222938537598 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.5448353290557861 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.6156530380249023 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.1306967735290527 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.116447687149048 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.494689464569092 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.5003283023834229 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.2391817569732666 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.01677107810974121 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.48070740699768066 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.5754280090332031 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 2.054777145385742 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.460982084274292 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.3418912887573242 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.5567843914031982 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.9127123355865479 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 3.390251398086548 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.4261107444763184 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.8504300117492676 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.1138763427734375 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.9457316398620605 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.448673963546753 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.481022596359253 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.3357865810394287 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.7718119621276855 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.11686110496521 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.980848789215088 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.0257656574249268 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.0277938842773438 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.17666268348693848 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.02123546600341797 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.8630173206329346 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.366032361984253 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 2.5414974689483643 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.428938627243042 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.361337423324585 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 0.5188312530517578 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 0.9631390571594238 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.200164556503296 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.9755165576934814 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.5022294521331787 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08850288391113281 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.8394520282745361 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 3.7183666229248047 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.723210573196411 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 3.061922073364258 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.7613458633422852 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.145622491836548 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.1341652870178223 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.6974718570709229 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.496399164199829 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.2048351764678955 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.017293691635131836 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.7679293155670166 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.9684414863586426 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.5731098651885986 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.2848598957061768 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.3121626377105713 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 5.526787281036377 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 5.658855199813843 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 0.9109988212585449 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.4375078678131104 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.8660097122192383 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.07414555549621582 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.8144040107727051 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.6413164138793945 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.7937958240509033 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.041128158569336 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.054832935333252 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.3099889755249023 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.5572898387908936 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.2156076431274414 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.7206978797912598 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.16272830963134766 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.019345521926879883 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 1.1063861846923828 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.4083735942840576 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.0173542499542236 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.7616102695465088 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.4826369285583496 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 3.8689117431640625 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 3.955695629119873 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 3.844508409500122 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.5302186012268066 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.48693037033081055 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.06159853935241699 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.177926778793335 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.323235034942627 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.1354007720947266 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.6793599128723145 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.1588401794433594 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.3308143615722656 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.8769686222076416 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.2134368419647217 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.998990535736084 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.17214655876159668 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.018894672393798828 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.19272923469543457 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.48278331756591797 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.729661226272583 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.610325813293457 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.1816790103912354 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.929863691329956 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.8180272579193115 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.4705235958099365 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 2.289430856704712 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.6795198917388916 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.0682821273803711 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.622730016708374 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.3430511951446533 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.5056471824645996 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.355654001235962 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.5044968128204346 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 0.4813728332519531 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 0.910740852355957 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.9700639247894287 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.0828220844268799 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.1578214168548584 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.016015291213989258 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.4056127071380615 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.1026041507720947 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.1943063735961914 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.6520624160766602 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.620798110961914 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.2119176387786865 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 3.2585067749023438 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 3.1850602626800537 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.415914535522461 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.6863539218902588 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.0827341079711914 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.955935001373291 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.4416911602020264 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.55731201171875 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.394392728805542 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.5470905303955078 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 5.377018213272095 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 3.864924907684326 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.4187843799591064 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.070427656173706 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.10936856269836426 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.012093544006347656 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.20942044258117676 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.5637693405151367 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 2.024501323699951 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.1065945625305176 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 3.2712979316711426 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.6038172245025635 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.464754581451416 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.099724292755127 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.0914292335510254 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.6614556312561035 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08424973487854004 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.9046986103057861 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.1685872077941895 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.32985258102417 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.7122304439544678 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.9068491458892822 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.6568737030029297 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.0110924243927 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.0249435901641846 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.4734265804290771 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.22972822189331055 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.015055656433105469 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.32567882537841797 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.5255625247955322 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.0951611995697021 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.598654270172119 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 3.777409553527832 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.5307555198669434 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.3084471225738525 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.996427297592163 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.415745496749878 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.7588818073272705 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.11542701721191406 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.793471336364746 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 2.522891044616699 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.5322601795196533 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.0165929794311523 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.2347049713134766 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.1595404148101807 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.407763957977295 with depth 4
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 1.7263853549957275 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 3.907238006591797 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 3.2141528129577637 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.177267074584961 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.8590087890625 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.262735605239868 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.106480836868286 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.501025676727295 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.4945871829986572 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.48777341842651367 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.07360625267028809 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.3695530891418457 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.39585137367248535 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 4.696928262710571 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 3.3572497367858887 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.614802122116089 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.131995916366577 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.3796117305755615 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.2190260887145996 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.3690111637115479 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.1914997100830078 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.02073073387145996 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.1642913818359375 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.9908506870269775 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 3.2263927459716797 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 3.6334850788116455 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.069120168685913 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 3.1301400661468506 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.1235485076904297 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.1927294731140137 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 0.6326065063476562 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.418809175491333 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.06227445602416992 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.9345667362213135 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 2.2369699478149414 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.10440731048584 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 3.063202142715454 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.7303569316864014 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.9100594520568848 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.3737804889678955 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.1877520084381104 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.9840447902679443 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.13573217391967773 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.01393270492553711 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.8425953388214111 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.3596422672271729 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.958085060119629 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.1051101684570312 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 0.8466947078704834 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.1292741298675537 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.0246882438659668 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.0653395652770996 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.273566722869873 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.452103853225708 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.037686824798583984 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.2732369899749756 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.7844793796539307 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.1703383922576904 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 3.6603505611419678 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 3.8840553760528564 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 4.562722444534302 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.8808233737945557 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.5974352359771729 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.9814505577087402 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.1941537857055664 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.015450477600097656 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 1.7761929035186768 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.980700969696045 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.3224444389343262 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.8448779582977295 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.7153143882751465 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 0.6357481479644775 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 0.8291738033294678 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.013523817062378 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.0253069400787354 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.7914807796478271 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08902573585510254 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.6639890670776367 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 3.538769245147705 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 4.063277959823608 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 4.4612205028533936 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.388160228729248 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 3.150099754333496 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.47670316696167 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.0027410984039307 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.0187451839447021 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.21764278411865234 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.020313739776611328 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.19332599639892578 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.8830351829528809 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 3.146397590637207 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 4.220315933227539 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 3.0835788249969482 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.7361929416656494 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.763725519180298 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.7998130321502686 with depth 4
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 2.4627206325531006 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.4137952327728271 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.7324013710021973 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.5381412506103516 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 3.1864776611328125 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.12605881690979 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 0.5020654201507568 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.5329880714416504 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.1307201385498047 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.22174954414367676 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.026097774505615234 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.16186022758483887 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.4933083057403564 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 4.567286014556885 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 6.934588670730591 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 3.0149881839752197 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 3.3374531269073486 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.676776647567749 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.394148588180542 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.7691810131072998 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.5349569320678711 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.06436681747436523 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.6513006687164307 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.9182112216949463 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.2337613105773926 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.6866888999938965 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.8730504512786865 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.1050567626953125 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.416203260421753 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.2976222038269043 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 3.41190767288208 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.3673110008239746 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.02384638786315918 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.891167163848877 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 2.016843318939209 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 2.3665597438812256 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 3.2438762187957764 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.350416660308838 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.3402953147888184 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 0.9235355854034424 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.13044810295105 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 2.0133862495422363 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.7143101692199707 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.1008143424987793 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.3732714653015137 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 2.4267578125 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.114776372909546 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.966322183609009 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 3.605048656463623 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.1532540321350098 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 0.9015214443206787 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 3.0226964950561523 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 2.6635377407073975 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.36953139305114746 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.025102853775024414 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.19704008102416992 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.7844729423522949 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 4.58375096321106 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.8215906620025635 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.997253894805908 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.9098868370056152 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.7723157405853271 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.2227067947387695 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 2.493598222732544 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.49024510383605957 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.06863117218017578 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.8832488059997559 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 2.4638512134552 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 3.079375743865967 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 6.4506940841674805 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 3.76772141456604 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 3.9709060192108154 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 3.2510643005371094 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.78071928024292 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 2.200944185256958 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.4601929187774658 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.02860713005065918 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.22687673568725586 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.5387029647827148 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.1102542877197266 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 4.208352327346802 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 4.349237442016602 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 3.2086756229400635 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 3.222123861312866 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 5.781786680221558 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.8452610969543457 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.9496810436248779 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.13966965675354004 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.23868727684020996 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.47568750381469727 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.32723498344421387 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.5621206760406494 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.88313889503479 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.3411624431610107 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 0.9518842697143555 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.8192133903503418 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.8899397850036621 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.12522268295288086 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.019208192825317383 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.4374542236328125 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.0170977115631104 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 3.5612432956695557 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 4.314497470855713 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 3.0609331130981445 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.2918546199798584 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.0226354598999023 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.4546401500701904 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.2992665767669678 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.7711398601531982 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.10087990760803223 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 2.5510382652282715 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 3.7478060722351074 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 4.444223642349243 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.2722516059875488 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.1079204082489014 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.9783711433410645 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.890406370162964 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.030163288116455 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.120939016342163 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.21404266357421875 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.017082929611206055 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 1.5906860828399658 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.6616709232330322 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.243995189666748 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.5451548099517822 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.2084295749664307 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 3.0286993980407715 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.4579155445098877 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.0245447158813477 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.7265024185180664 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.5092589855194092 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08180999755859375 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 2.4408774375915527 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 4.228259801864624 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.87245774269104 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.2352354526519775 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.2478539943695068 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 0.9064807891845703 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.588407516479492 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.0772602558135986 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.1361870765686035 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.17599749565124512 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.016058921813964844 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.14454889297485352 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.8142573833465576 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.49670863151550293 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.1497430801391602 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 3.987717628479004 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.7249584197998047 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 3.9042463302612305 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.1797127723693848 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.9616222381591797 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.7458269596099854 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08452963829040527 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.297304630279541 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 2.0820517539978027 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.5268514156341553 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.9632225036621094 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.6594228744506836 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.948025941848755 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.4824087619781494 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.1810598373413086 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.7945590019226074 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.1843280792236328 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.018683910369873047 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.8615133762359619 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 2.7037954330444336 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 5.246191740036011 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 5.161599397659302 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 5.156261444091797 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 4.445089101791382 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 3.8941147327423096 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 4.145760774612427 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 2.142261028289795 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 1.183398723602295 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08383989334106445 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.5263962745666504 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.9242339134216309 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.5410985946655273 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.2321510314941406 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.7096147537231445 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.1356134414672852 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 0.7696678638458252 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.7063028812408447 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.8264226913452148 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.18153166770935059 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.018030405044555664 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.9149386882781982 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.3526997566223145 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.4656431674957275 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 3.2173802852630615 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 3.0415689945220947 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.550281524658203 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.1816902160644531 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 0.7409660816192627 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.9286975860595703 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.7687370777130127 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.0829017162322998 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 2.788572311401367 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 4.255329132080078 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 5.199966669082642 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 3.4840424060821533 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.7628397941589355 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.4438812732696533 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.199942111968994 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.616147756576538 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.3942649364471436 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.2214803695678711 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.015991926193237305 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.39362454414367676 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.0625841617584229 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 2.1253747940063477 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.6622869968414307 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 4.631732940673828 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.4080109596252441 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.204702377319336 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.9724700450897217 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 4.070326805114746 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 1.1802160739898682 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.1127173900604248 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.5507221221923828 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 3.053223133087158 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 6.532061338424683 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.669903039932251 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.9627840518951416 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.6940388679504395 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.755615472793579 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.1358461380004883 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.1064963340759277 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.1704099178314209 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.015329599380493164 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.3734092712402344 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 2.6144044399261475 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 3.43989634513855 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 3.344355344772339 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 3.932603120803833 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.4961466789245605 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.300541877746582 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.352691411972046 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.3714940547943115 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.8428819179534912 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.09718132019042969 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.6922934055328369 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.8365061283111572 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.6873910427093506 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 4.105889797210693 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.478163242340088 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 0.9770047664642334 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.8241307735443115 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 4.154206991195679 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.603233814239502 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.21684765815734863 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.02382659912109375 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.4770019054412842 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.6213729381561279 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.761833667755127 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.5232293605804443 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 3.0658323764801025 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.765078067779541 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.617002487182617 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.7704126834869385 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.7799079418182373 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.7505836486816406 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.07835006713867188 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.0279476642608643 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 2.303581953048706 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.1164653301239014 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.3547730445861816 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.9544703960418701 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 0.879441499710083 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.4584901332855225 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.5570273399353027 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.3155763149261475 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.20487570762634277 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.01617741584777832 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.15186285972595215 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.22082948684692383 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.6056678295135498 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.6216459274291992 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 3.672562837600708 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.608186721801758 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.6785638332366943 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.4545049667358398 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 3.161402702331543 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.8423826694488525 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08987975120544434 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.1855621337890625 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.2129759788513184 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.962853193283081 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.594287157058716 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 3.065676212310791 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.1485602855682373 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.427537202835083 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.118678331375122 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.8447122573852539 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.1851944923400879 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.013802289962768555 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.20943927764892578 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 3.016814947128296 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 3.0934135913848877 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.276449203491211 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.6243712902069092 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.2843446731567383 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.061483860015869 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 3.1993210315704346 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 2.7816383838653564 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 1.029667854309082 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.09889745712280273 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.4149208068847656 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.5581238269805908 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.6140766143798828 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.564798355102539 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.7354164123535156 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.587845802307129 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.9176781177520752 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.6530532836914062 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.7941200733184814 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.19913768768310547 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.013593435287475586 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.9286215305328369 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.2575960159301758 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 3.0474014282226562 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.9073078632354736 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.3918564319610596 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.4878358840942383 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 3.684910535812378 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.6287918090820312 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 2.474245548248291 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.5894930362701416 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08900785446166992 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.2701747417449951 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 2.770796775817871 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.3673603534698486 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.7790005207061768 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.6855568885803223 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.167248010635376 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.5711746215820312 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.96852445602417 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.7610759735107422 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.2738227844238281 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.01815032958984375 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.4488964080810547 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.37815284729003906 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 2.5107970237731934 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.8593366146087646 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 3.455826997756958 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 3.3870577812194824 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.0809705257415771 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.4886720180511475 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 3.0498130321502686 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.8046846389770508 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08956289291381836 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.32079434394836426 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.6131777763366699 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.45237183570861816 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.382558584213257 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.377502202987671 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.4626569747924805 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.6900432109832764 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.874032735824585 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.1322391033172607 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.20113158226013184 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.019911766052246094 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.3084101676940918 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.24464082717895508 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 2.031661033630371 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.5332698822021484 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.061044692993164 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.7542691230773926 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.1820759773254395 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.5146255493164062 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.7658672332763672 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.868981122970581 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08741426467895508 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.6932790279388428 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.5400946140289307 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.3774983882904053 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 3.119525671005249 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.0061066150665283 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.230111837387085 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.2329375743865967 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.5047965049743652 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.885786771774292 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.305619478225708 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.022217512130737305 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.18293404579162598 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.7214362621307373 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.1038470268249512 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.475207805633545 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.1458239555358887 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.2542617321014404 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.0268094539642334 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.359607219696045 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 2.159902811050415 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.724872350692749 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08221960067749023 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 2.083045244216919 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 2.1669352054595947 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.1393508911132812 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.4363832473754883 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.4016222953796387 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.026456356048584 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.1267595291137695 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.872995376586914 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.5423526763916016 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.2821331024169922 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.01914358139038086 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.8923313617706299 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 2.0355286598205566 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 2.5302250385284424 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.112856388092041 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.6009461879730225 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.010117769241333 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.684983253479004 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.5778295993804932 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 0.6818828582763672 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.3836960792541504 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.05151534080505371 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.6031510829925537 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.6229591369628906 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.08237624168396 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.7649567127227783 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.5578374862670898 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.131765365600586 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.930253028869629 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.1371893882751465 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.7304027080535889 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.159592866897583 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.0204315185546875 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.2612729072570801 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.4820878505706787 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.4688618183135986 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.1661646366119385 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.3746798038482666 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.2921102046966553 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.4859833717346191 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.5730714797973633 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.4600369930267334 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.7803637981414795 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.0882565975189209 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.37668800354003906 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.8455424308776855 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.7816004753112793 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.7159125804901123 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.3379449844360352 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.9126226902008057 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.488205909729004 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.4915590286254883 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.4820866584777832 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.25894904136657715 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.023233652114868164 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.1849079132080078 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.0224173069000244 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.4684686660766602 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.1402511596679688 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.4651248455047607 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.5088160037994385 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.9470300674438477 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.098400115966797 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 2.391554832458496 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.5809280872344971 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08739280700683594 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.5026659965515137 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.6123301982879639 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.2695651054382324 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.7729547023773193 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.9372315406799316 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.4871571063995361 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.3367674350738525 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 4.694835424423218 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 3.07798171043396 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.36075592041015625 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.023056745529174805 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.18654298782348633 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.6842188835144043 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.9313149452209473 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.9367642402648926 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.333789587020874 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.938943862915039 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.203317403793335 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.8262128829956055 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.9602534770965576 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 1.3410139083862305 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.0988471508026123 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.1421067714691162 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.3741865158081055 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.4808344841003418 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.9508798122406006 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.9047975540161133 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.074559211730957 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.9567506313323975 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 3.329373359680176 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.5559003353118896 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.25318288803100586 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.02301955223083496 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.3224318027496338 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.5149483680725098 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.2100450992584229 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.2474770545959473 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.9920847415924072 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.1339573860168457 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.9591915607452393 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.3140568733215332 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.4056873321533203 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.6603538990020752 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.08908295631408691 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.6259937286376953 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.3209359645843506 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 2.137317657470703 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.879805326461792 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.478363275527954 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.2890660762786865 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.1073253154754639 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.1956758499145508 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.4244022369384766 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.18357324600219727 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.013674497604370117 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.26894187927246094 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.6675748825073242 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.9450256824493408 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.5735483169555664 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.396239995956421 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.5576152801513672 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.278676986694336 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.9159319400787354 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.166240930557251 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.5183253288269043 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.07288408279418945 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.5197570323944092 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.35629796981811523 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.3999063968658447 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.2968430519104004 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.0523128509521484 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.1535139083862305 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 0.9929161071777344 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.5227937698364258 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 0.7511096000671387 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.13230490684509277 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.015304088592529297 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.25110960006713867 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.4920041561126709 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.176863193511963 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.3079347610473633 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.341557264328003 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.1698689460754395 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 3.9092140197753906 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 3.052377700805664 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 2.221794843673706 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.5743296146392822 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.06424856185913086 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.5530819892883301 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.2932875156402588 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.9612674713134766 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.9768984317779541 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.9466111660003662 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.5388035774230957 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.287977933883667 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.0644819736480713 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.325948715209961 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.31753063201904297 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.022349119186401367 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.34302806854248047 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.4686734676361084 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.41119861602783203 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.8578929901123047 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 0.9864010810852051 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.4525377750396729 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.2341742515563965 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.4932081699371338 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 1.2031822204589844 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.870450496673584 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.09729313850402832 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.37848639488220215 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.8544292449951172 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.9297094345092773 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.2560093402862549 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.8178119659423828 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.1309428215026855 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.0796077251434326 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.1308889389038086 with depth 4
+num_moves: 19, max_depth: 5
+alpha-beta agent took time 1.070831298828125 with depth 5
+num_moves: 21, max_depth: 5
+alpha-beta agent took time 0.2027757167816162 with depth 5
+num_moves: 23, max_depth: 5
+alpha-beta agent took time 0.01154017448425293 with depth 5
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.3307359218597412 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.7252407073974609 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.7738044261932373 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.1129322052001953 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.437133312225342 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.5621166229248047 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.1832177639007568 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.564952850341797 with depth 4
+num_moves: 18, max_depth: 4
+alpha-beta agent took time 2.6643247604370117 with depth 4
+num_moves: 20, max_depth: 5
+alpha-beta agent took time 0.7102770805358887 with depth 5
+num_moves: 22, max_depth: 5
+alpha-beta agent took time 0.10598063468933105 with depth 5
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.5529229640960693 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.0890133380889893 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.0095782279968262 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.9643621444702148 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.3288631439208984 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.6187257766723633 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.2620983123779297 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.6217725276947021 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.5948607921600342 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.19883394241333008 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.014265298843383789 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.17160415649414062 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.32748889923095703 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.7854814529418945 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.032325267791748 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.7636559009552002 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.201535701751709 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.9032371044158936 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.974874258041382 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 5.056089878082275 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.10477900505065918 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.03776431083679199 with depth 6
+num_moves: 3, max_depth: 5
+alpha-beta agent took time 2.780874490737915 with depth 5
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.136695384979248 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.880549430847168 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.0576963424682617 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.9987773895263672 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.2329857349395752 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.2152254581451416 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.6334178447723389 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.1859509944915771 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.3954465389251709 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.6922638416290283 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.4023475646972656 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.6537070274353027 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.4068922996520996 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.8465795516967773 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.890028715133667 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.0389935970306396 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.875009536743164 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.32254791259765625 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.019387245178222656 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.5074465274810791 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.3941793441772461 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.719409704208374 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.1210553646087646 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.0600769519805908 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.558459997177124 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.483400821685791 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 3.183619976043701 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.3903722763061523 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.39653754234313965 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.05977368354797363 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.3565232753753662 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.5578293800354004 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.2982199192047119 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.8984825611114502 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.8093020915985107 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.515812635421753 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.2622284889221191 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.6653573513031006 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.091590404510498 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.2145853042602539 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.02031111717224121 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.3451845645904541 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.6181998252868652 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.5916986465454102 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.8823564052581787 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 0.7207667827606201 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.3672316074371338 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.2629666328430176 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.0550220012664795 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.4118356704711914 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.45061612129211426 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.07465887069702148 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.3829479217529297 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.6338212490081787 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.6731545925140381 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.8250396251678467 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.7073733806610107 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.785839796066284 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.3753042221069336 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.1608188152313232 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.4013595581054688 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.20839571952819824 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.02822709083557129 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.2819204330444336 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.38562870025634766 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.0226237773895264 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.4548628330230713 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 0.5878238677978516 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.8066339492797852 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.5856940746307373 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.6057779788970947 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.8888871669769287 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5069308280944824 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.06073141098022461 with depth 6
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.9324939250946045 with depth 4
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.4671359062194824 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.9447331428527832 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.6358058452606201 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.4878110885620117 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.8759875297546387 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.303548812866211 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.7067646980285645 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.6410784721374512 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.061523675918579 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.24361658096313477 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.01909780502319336 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.21385979652404785 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.5066123008728027 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.5685203075408936 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.6242539882659912 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.7299065589904785 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.5120959281921387 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.9085454940795898 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.248028039932251 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.293989419937134 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.7587735652923584 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.11462593078613281 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.6291429996490479 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.0477347373962402 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.9152443408966064 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.0497334003448486 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.4103121757507324 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.0986456871032715 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.5462596416473389 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.123215436935425 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.0198414325714111 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.16220474243164062 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.0149993896484375 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.6042726039886475 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.7447130680084229 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.0711479187011719 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.038304328918457 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.5332849025726318 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.4700117111206055 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.5356240272521973 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.2795777320861816 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 1.1540019512176514 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.2557547092437744 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.04589080810546875 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.45334696769714355 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.45885539054870605 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.0600090026855469 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.6051967144012451 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.5588762760162354 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.268249988555908 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.625535011291504 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.9904537200927734 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 2.031689167022705 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.24725627899169922 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.02298879623413086 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.42792367935180664 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.9060540199279785 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.7407424449920654 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.8443746566772461 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 0.6962945461273193 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 0.9337029457092285 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.1433641910552979 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.0449087619781494 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 3.557905673980713 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.6156094074249268 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.07652831077575684 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 1.5953915119171143 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 2.3890278339385986 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 3.488142251968384 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.8157379627227783 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.074066162109375 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.4514307975769043 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.9119057655334473 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.9076731204986572 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 0.9939262866973877 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.18117499351501465 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.012919425964355469 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.25845837593078613 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.47695016860961914 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.7080934047698975 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.43205952644348145 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.75838303565979 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 4.124445199966431 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.5158770084381104 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.383357286453247 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 3.5731446743011475 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5387566089630127 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.05438494682312012 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.4551987648010254 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.457975149154663 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.8629984855651855 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.605397939682007 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 3.1567347049713135 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.0406060218811035 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.1589186191558838 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.4735558032989502 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 0.7511301040649414 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.12431788444519043 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.009443998336791992 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.2755544185638428 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.9865875244140625 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.1720037460327148 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.4647750854492188 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.7780113220214844 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.845869779586792 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.7193384170532227 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.0790741443634033 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.7136011123657227 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5619142055511475 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.08306646347045898 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.3901827335357666 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.9202015399932861 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.550842046737671 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.2966804504394531 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.0911498069763184 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 0.9434659481048584 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.4382309913635254 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.3698475360870361 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 0.935356616973877 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.16102218627929688 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.01739025115966797 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.21796464920043945 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.6135938167572021 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.9117505550384521 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.6499736309051514 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 0.5915169715881348 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.4153952598571777 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.6351099014282227 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.4639976024627686 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 4.770309209823608 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.4981343746185303 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.0818324089050293 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.34703922271728516 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.5638062953948975 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.8300933837890625 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.941317081451416 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.023075819015503 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 3.484452486038208 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.0609588623046875 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.8172781467437744 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 0.6496031284332275 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.10922503471374512 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.015306472778320312 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.18842291831970215 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.38332557678222656 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.5501046180725098 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.6648440361022949 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 0.45096468925476074 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 0.5278475284576416 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.4541161060333252 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.1599664688110352 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 3.0923171043395996 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5092892646789551 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.05993056297302246 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.7559034824371338 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.7818794250488281 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.7551474571228027 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.5112652778625488 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.9058551788330078 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.1069724559783936 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.694457769393921 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.9062442779541016 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.0849683284759521 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.16268372535705566 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.029909372329711914 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.47331714630126953 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.37304043769836426 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.8737614154815674 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.0342144966125488 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.0447945594787598 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.7900240421295166 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.3677661418914795 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.7675974369049072 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 3.7384026050567627 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.6480388641357422 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.05678558349609375 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.35935378074645996 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.1238672733306885 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.5423622131347656 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.0572543144226074 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.7525694370269775 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.5857596397399902 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 0.9183688163757324 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.0208890438079834 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 0.5071308612823486 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.16355681419372559 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.024651050567626953 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.39643096923828125 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.026221752166748 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.5880012512207031 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.5287654399871826 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.2434232234954834 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 0.9975006580352783 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.584105968475342 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 0.9924130439758301 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.9601762294769287 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.3668332099914551 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.04566597938537598 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.4141230583190918 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.5833971500396729 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.7707345485687256 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.1064181327819824 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 4.0833234786987305 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 3.1594154834747314 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.634549140930176 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.3459391593933105 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 2.0854363441467285 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.2742016315460205 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.02290630340576172 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.19680142402648926 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.3721137046813965 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.36997413635253906 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.7773809432983398 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.568120002746582 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.9873194694519043 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.548184871673584 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.4936110973358154 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 3.726802110671997 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.6608021259307861 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.07926630973815918 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.5470297336578369 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.5293817520141602 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.1743333339691162 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.6323275566101074 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.394559383392334 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.6896843910217285 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 0.8111460208892822 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.142287254333496 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 0.9455718994140625 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.1818530559539795 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.021295547485351562 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.29730844497680664 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.7723977565765381 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.6919300556182861 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.5786924362182617 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.0109436511993408 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.2733991146087646 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.6536271572113037 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 0.7243213653564453 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.7685153484344482 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.6248798370361328 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.05504417419433594 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.2756011486053467 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.48409056663513184 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.41016364097595215 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.6027417182922363 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.1164460182189941 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.6410269737243652 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.867447853088379 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.8314974308013916 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.0951130390167236 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.21823596954345703 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.011286258697509766 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.2984495162963867 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.8521225452423096 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.0275633335113525 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.7719626426696777 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.304358959197998 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.392974615097046 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.3747429847717285 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.3767740726470947 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 3.509929656982422 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5724508762359619 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.13500046730041504 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.6515200138092041 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.6585521697998047 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.889894962310791 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.8202254772186279 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.0396013259887695 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 3.0422768592834473 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.3304672241210938 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.3656036853790283 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 0.9358808994293213 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.18294167518615723 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.016019821166992188 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.22461700439453125 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.9679970741271973 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 2.548795461654663 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.3391969203948975 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.583167552947998 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.9533684253692627 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.121626377105713 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.2168142795562744 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.1952548027038574 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.34579920768737793 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.049817562103271484 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.6279616355895996 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.9329943656921387 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.5329675674438477 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.1777284145355225 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.6781916618347168 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.805924415588379 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.6220118999481201 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.9861719608306885 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.0452830791473389 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.16958189010620117 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.020118236541748047 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.3016045093536377 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.609553337097168 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.9628891944885254 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.810258150100708 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.2579286098480225 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.7276978492736816 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.314743995666504 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.7731471061706543 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 4.247765064239502 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.617260217666626 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.07020211219787598 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.6123933792114258 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.5227129459381104 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.9276764392852783 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.3068428039550781 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.9613251686096191 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 0.6907751560211182 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.119246006011963 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.5294711589813232 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.7692863941192627 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.2754790782928467 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.020646095275878906 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.3388955593109131 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.6903865337371826 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.056004524230957 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.161956548690796 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.199594259262085 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.516357183456421 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.303988456726074 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.385993480682373 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 3.5835134983062744 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.6219847202301025 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.0650486946105957 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.5367088317871094 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.872704029083252 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.0896058082580566 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.933647632598877 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 3.9235823154449463 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.4425740242004395 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.1762940883636475 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.8862171173095703 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.1755573749542236 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.24495983123779297 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.021237850189208984 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.34539222717285156 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.5614731311798096 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.6435399055480957 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.526761531829834 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.7090342044830322 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.2813901901245117 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.8702690601348877 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.3126184940338135 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 5.180315732955933 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.8186872005462646 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.08402585983276367 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.4181079864501953 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.536893367767334 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.170384407043457 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.3438389301300049 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.1425657272338867 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.313063859939575 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.3967480659484863 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.7561616897583008 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.109816551208496 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.18758773803710938 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.01641368865966797 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.28869080543518066 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.206390619277954 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.9063761234283447 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.0641162395477295 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.920281171798706 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.4848949909210205 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 0.9696357250213623 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 0.9008498191833496 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 1.9124369621276855 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.6159956455230713 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.07129907608032227 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.2989325523376465 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.7632627487182617 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.383047103881836 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.1278820037841797 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.5954954624176025 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 0.6834890842437744 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.412148952484131 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.351452112197876 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.3571531772613525 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.21520447731018066 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.021387100219726562 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.36196064949035645 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.6088364124298096 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.1476151943206787 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.1318259239196777 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 3.689608097076416 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.5855445861816406 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 3.107447624206543 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.648101806640625 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.874718189239502 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5960841178894043 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.07889795303344727 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.6108851432800293 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.6348981857299805 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.46399402618408203 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.279916524887085 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.2610294818878174 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.6493871212005615 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.151746988296509 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.000554323196411 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 0.8457798957824707 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.23404622077941895 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.018478870391845703 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.3351895809173584 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.3071713447570801 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.5463600158691406 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.1121041774749756 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.7874207496643066 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.8636443614959717 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.6274406909942627 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 0.6938879489898682 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 1.8117313385009766 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.43410634994506836 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.06869935989379883 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.88655686378479 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.4947867393493652 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.1467459201812744 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.841846227645874 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 3.4624581336975098 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.368163824081421 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.0346214771270752 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.7071707248687744 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.0621657371520996 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.19560861587524414 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.014942646026611328 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.31032633781433105 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.3550517559051514 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.3983426094055176 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.2586524486541748 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.2108702659606934 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.36427640914917 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.0173847675323486 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.8712711334228516 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 1.2634236812591553 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5300049781799316 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.09339332580566406 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.37686944007873535 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.9183826446533203 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.8482279777526855 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.03181791305542 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.257599353790283 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.31184720993042 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.2821848392486572 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 3.3157410621643066 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.7410318851470947 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.24276208877563477 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.016185760498046875 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.2513387203216553 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.46158623695373535 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.7081897258758545 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.2437608242034912 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.7915112972259521 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.6518809795379639 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 0.9245302677154541 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.148423194885254 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 3.6230721473693848 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.8444852828979492 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.0855107307434082 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.7009506225585938 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.6989414691925049 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.9959826469421387 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.504227638244629 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.9177396297454834 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.339900016784668 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 3.651517629623413 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 5.490894794464111 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.7878444194793701 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.24263668060302734 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.016816377639770508 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.3369913101196289 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.9436054229736328 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.1268610954284668 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.665811538696289 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.1860055923461914 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 0.886446475982666 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.5613949298858643 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.192955493927002 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 3.3545351028442383 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.6397843360900879 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.07667803764343262 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.9758970737457275 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.8413453102111816 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.7638888359069824 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.3266692161560059 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.4922854900360107 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.146538257598877 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.6584196090698242 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 2.1751229763031006 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.6780354976654053 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.22860193252563477 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.015804290771484375 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.23653292655944824 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.6795692443847656 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.8496034145355225 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.3559646606445312 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.787754774093628 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.611232280731201 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.14139461517334 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.022977113723755 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.811338424682617 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5359292030334473 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.06752490997314453 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.34995293617248535 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.0612874031066895 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.2546939849853516 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 1.8785090446472168 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.0623273849487305 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.009692907333374 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.566209316253662 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.4350471496582031 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.0134525299072266 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.1823275089263916 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.0162661075592041 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.38926005363464355 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.6136822700500488 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.2858912944793701 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.6364154815673828 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.7023098468780518 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.5488195419311523 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 3.6190340518951416 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.3457539081573486 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.843614339828491 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.6552975177764893 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.08417439460754395 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.2932121753692627 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.6063034534454346 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.1761152744293213 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.7036528587341309 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.3657891750335693 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.845320463180542 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.7559561729431152 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.3258557319641113 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 0.7410571575164795 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.1621999740600586 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.02087235450744629 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.7648725509643555 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.1206598281860352 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.8529553413391113 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.038372039794922 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.0583724975585938 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.7260777950286865 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.3109986782073975 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.187530040740967 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.015691041946411 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.47816038131713867 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.06019926071166992 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.49435877799987793 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.8034570217132568 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.1531755924224854 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.7756524085998535 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.7079429626464844 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 3.0558934211730957 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.0958194732666016 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.8469817638397217 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.0100367069244385 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.19831132888793945 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.015651226043701172 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.6142904758453369 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.1459441184997559 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.3989481925964355 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.5360620021820068 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 0.8460450172424316 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.4304702281951904 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.9292738437652588 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.015883445739746 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 4.105700731277466 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.6222593784332275 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.0717473030090332 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.31194114685058594 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.6330618858337402 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.2517855167388916 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.727642297744751 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 0.9303598403930664 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.5280365943908691 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 0.9452886581420898 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.7509415149688721 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.2185420989990234 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.14643430709838867 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.016198396682739258 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.3434779644012451 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.3197271823883057 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.3025271892547607 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.7874555587768555 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.7265105247497559 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.836475133895874 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 0.7960002422332764 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.4031939506530762 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.6895971298217773 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5382635593414307 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.07288289070129395 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.456493616104126 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.6135349273681641 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.7816097736358643 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 3.0212957859039307 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.0343410968780518 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.509913921356201 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.278759241104126 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.577183485031128 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.241640329360962 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.24364495277404785 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.014196634292602539 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.4979569911956787 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.4296324253082275 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.5942130088806152 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.4808101654052734 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.5771324634552002 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.146522045135498 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.609661102294922 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.1795578002929688 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 3.3665771484375 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5929324626922607 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.07966804504394531 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.5626623630523682 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.8909242153167725 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.659935474395752 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.9404282569885254 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 3.7980945110321045 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.949631690979004 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.182615041732788 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.2296123504638672 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.276252031326294 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.18337130546569824 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.02136850357055664 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.25976085662841797 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.7146623134613037 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.5373861789703369 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.8221778869628906 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.5480797290802002 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 0.6796352863311768 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.1012413501739502 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 0.7175254821777344 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 1.571941614151001 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5134127140045166 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.08008098602294922 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.48949623107910156 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.4524362087249756 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 0.5728683471679688 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.6015081405639648 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.9112482070922852 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.6421053409576416 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.2024929523468018 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.7976784706115723 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.1614737510681152 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.21709108352661133 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.01768636703491211 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.2679016590118408 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.9899964332580566 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.8065671920776367 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.4023020267486572 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.1069920063018799 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.369696855545044 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.1706030368804932 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 0.8464593887329102 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.1739344596862793 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5206048488616943 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.06402349472045898 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.6694743633270264 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.1093971729278564 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.7790415287017822 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.374861717224121 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 3.2083585262298584 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 2.548232316970825 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 2.4267237186431885 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.7178480625152588 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.4225988388061523 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.2138807773590088 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.017960071563720703 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.5415265560150146 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.4024100303649902 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.9017376899719238 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.5329525470733643 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.5785436630249023 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 2.2824180126190186 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.375084638595581 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 3.9833197593688965 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 3.806875228881836 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.9614477157592773 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.0804741382598877 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.6681308746337891 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 0.8026516437530518 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.1633436679840088 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.51655650138855 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.6189568042755127 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.3860063552856445 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.8996174335479736 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.1969060897827148 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 1.1831567287445068 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.17500019073486328 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.018093109130859375 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.5514163970947266 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.1228585243225098 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 2.0128562450408936 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 4.5619049072265625 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.7702229022979736 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 3.080620050430298 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.157606840133667 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.973012924194336 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.290494441986084 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5032351016998291 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.0739741325378418 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.5761311054229736 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.7979762554168701 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.6789329051971436 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.1497244834899902 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 2.578869104385376 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.1370735168457031 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.1846885681152344 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.797109842300415 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 0.7513699531555176 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.014120817184448242 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.014131307601928711 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.32216739654541016 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 1.2612478733062744 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 0.9917500019073486 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 1.4687824249267578 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.2963714599609375 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 4.440736293792725 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.80586576461792 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.973865032196045 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.690155029296875 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5451388359069824 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.08098578453063965 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.5796411037445068 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.108858585357666 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.2276301383972168 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 0.974733829498291 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.0679962635040283 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 1.2454581260681152 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 1.3029510974884033 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 1.4713497161865234 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 0.7216994762420654 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.11718368530273438 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.01636362075805664 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.722191333770752 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.8702702522277832 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.212111234664917 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 2.8955488204956055 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 1.6221401691436768 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.0332698822021484 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 1.1943974494934082 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 1.415485143661499 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 4.575859069824219 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.7153849601745605 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.08069038391113281 with depth 6
+num_moves: 3, max_depth: 4
+alpha-beta agent took time 0.6105947494506836 with depth 4
+num_moves: 5, max_depth: 4
+alpha-beta agent took time 1.0731050968170166 with depth 4
+num_moves: 7, max_depth: 4
+alpha-beta agent took time 1.4771466255187988 with depth 4
+num_moves: 9, max_depth: 4
+alpha-beta agent took time 2.9558608531951904 with depth 4
+num_moves: 11, max_depth: 4
+alpha-beta agent took time 1.4666202068328857 with depth 4
+num_moves: 13, max_depth: 4
+alpha-beta agent took time 0.6613790988922119 with depth 4
+num_moves: 15, max_depth: 4
+alpha-beta agent took time 0.6735138893127441 with depth 4
+num_moves: 17, max_depth: 4
+alpha-beta agent took time 0.7884345054626465 with depth 4
+num_moves: 19, max_depth: 6
+alpha-beta agent took time 0.7335028648376465 with depth 6
+num_moves: 21, max_depth: 6
+alpha-beta agent took time 0.19605541229248047 with depth 6
+num_moves: 23, max_depth: 6
+alpha-beta agent took time 0.016311168670654297 with depth 6
+num_moves: 2, max_depth: 4
+alpha-beta agent took time 0.35643935203552246 with depth 4
+num_moves: 4, max_depth: 4
+alpha-beta agent took time 0.7731294631958008 with depth 4
+num_moves: 6, max_depth: 4
+alpha-beta agent took time 1.530937910079956 with depth 4
+num_moves: 8, max_depth: 4
+alpha-beta agent took time 0.876774787902832 with depth 4
+num_moves: 10, max_depth: 4
+alpha-beta agent took time 2.6677510738372803 with depth 4
+num_moves: 12, max_depth: 4
+alpha-beta agent took time 1.700805902481079 with depth 4
+num_moves: 14, max_depth: 4
+alpha-beta agent took time 2.683773994445801 with depth 4
+num_moves: 16, max_depth: 4
+alpha-beta agent took time 2.7984795570373535 with depth 4
+num_moves: 18, max_depth: 6
+alpha-beta agent took time 2.6915202140808105 with depth 6
+num_moves: 20, max_depth: 6
+alpha-beta agent took time 0.5455567836761475 with depth 6
+num_moves: 22, max_depth: 6
+alpha-beta agent took time 0.07540297508239746 with depth 6

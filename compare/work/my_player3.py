@@ -1,7 +1,7 @@
 import logging
 import numpy as np
 import sys
-from agent import AlphaBetaAgent
+from agent import AlphaBetaAgent, RLAgent
 import constants
 from game import Game
 import time
@@ -59,18 +59,24 @@ def put_num_moves(num_moves: int) -> None:
         fp.write(str(num_moves))
 
 
-# def get_next_move_from_rl_agent(game: Game, last_move: int) -> int:
-#     rl_agent = RLAgent(epsilon=0.0, game=game)
+def get_next_move_from_rl_agent(game: Game, last_move: int) -> int:
+    rl_agent = RLAgent(epsilon=0.0, game=game)
 
-#     if (curr_state not in rl_agent.q) or len(rl_agent.q[curr_state]) < 4:
-#         # I don't know, taking help from alpha-beta agent
-#         return get_next_move_from_ab_agent(game, last_move)
+    if (curr_state not in rl_agent.q) or len(rl_agent.q[curr_state]) < 4:
+        # I don't know, taking help from alpha-beta agent
+        return get_next_move_from_ab_agent(game, last_move)
 
-#     action = rl_agent.get_next_action()
-#     return action
+    action = rl_agent.get_next_action()
+    return action
 
 
 def get_next_move_from_ab_agent(game: Game) -> int:
+    if game.num_moves == 0 or game.num_moves == 1:
+        if game.board[2, 2] == constants.EMPTY:
+            return 12
+        elif game.board[1, 1] == constants.EMPTY:
+            return 6
+    
     max_depth = 6 if game.num_moves >= 18 else 4
     
     ab_agent = AlphaBetaAgent(max_depth=max_depth)
@@ -78,8 +84,8 @@ def get_next_move_from_ab_agent(game: Game) -> int:
     start_time = time.time()
     
     action = ab_agent.search(game)
-
-    logger.info(f'num_moves: {num_moves}, max_depth: {max_depth}')    
+    
+    logger.info(f'num_moves: {num_moves}, max_depth: {max_depth}')
     logger.info(f'alpha-beta agent took time {time.time() - start_time} with depth {max_depth}')
     
     return action
@@ -116,12 +122,10 @@ if __name__ == '__main__':
     num_moves = get_num_moves()
 
     first_player = constants.WHITE if curr_player == constants.WHITE else constants.BLACK
-    
+
     game = Game(constants.BOARD_SIZE, game_state=curr_state,
                 prev_board_state=prev_state, num_moves=num_moves, first_player=first_player)
 
-    print('possible_moves:', game.get_possible_moves())
-    
     action = get_next_move_from_ab_agent(game)
 
     logger.debug(f'action: {action}')

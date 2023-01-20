@@ -1,17 +1,16 @@
 import logging
 import numpy as np
 import sys
-from agent import AlphaBetaAgent
+from agent import AlphaBetaAgent, RLAgent
 import constants
 from game import Game
-import time
 
 sys.stdin = open('input.txt', 'r')
 sys.stdout = open('output.txt', 'w')
 sys.stderr = open('error.txt', 'w')
 
 logger = logging.getLogger(__name__)
-logger.addHandler(logging.FileHandler('my_player3.txt'))
+logger.addHandler(logging.FileHandler('my_player3.log'))
 logger.setLevel(logging.INFO)
 logger.propagate = False
 
@@ -38,7 +37,7 @@ def get_board(curr_player: int):
                 map(
                     lambda stone:
                         constants.OTHER_STONE[int(stone)] if curr_player == constants.WHITE
-                        else int(stone),
+                        else int(stone), 
                     list(input())
                 )
             )
@@ -59,29 +58,23 @@ def put_num_moves(num_moves: int) -> None:
         fp.write(str(num_moves))
 
 
-# def get_next_move_from_rl_agent(game: Game, last_move: int) -> int:
-#     rl_agent = RLAgent(epsilon=0.0, game=game)
+def get_next_move_from_rl_agent(game: Game, last_move: int) -> int:
+    rl_agent = RLAgent(epsilon=0.0, game=game)
 
-#     if (curr_state not in rl_agent.q) or len(rl_agent.q[curr_state]) < 4:
-#         # I don't know, taking help from alpha-beta agent
-#         return get_next_move_from_ab_agent(game, last_move)
+    if (curr_state not in rl_agent.q) or len(rl_agent.q[curr_state]) < 4:
+        # I don't know, taking help from alpha-beta agent
+        return get_next_move_from_ab_agent(game, last_move)
 
-#     action = rl_agent.get_next_action()
-#     return action
+    action = rl_agent.get_next_action()
+    return action
 
 
-def get_next_move_from_ab_agent(game: Game) -> int:
-    max_depth = 6 if game.num_moves >= 18 else 4
+def get_next_move_from_ab_agent(game: Game, last_move: int) -> int:
+    if game.board[2, 2] == constants.EMPTY:
+        return 12
     
-    ab_agent = AlphaBetaAgent(max_depth=max_depth)
-    
-    start_time = time.time()
-    
-    action = ab_agent.search(game)
-
-    logger.info(f'num_moves: {num_moves}, max_depth: {max_depth}')    
-    logger.info(f'alpha-beta agent took time {time.time() - start_time} with depth {max_depth}')
-    
+    ab_agent = AlphaBetaAgent(max_depth=constants.MAX_DEPTH)
+    action = ab_agent.search(game, last_move)
     return action
 
 
@@ -90,7 +83,7 @@ def get_last_move(prev_board, curr_board):
         for j in range(constants.BOARD_SIZE):
             if prev_board[i, j] != curr_board[i, j]:
                 return (i * constants.BOARD_SIZE + j)
-
+    
     return -1
 
 
@@ -108,26 +101,21 @@ if __name__ == '__main__':
 
     logger.debug(f'{curr_state}: curr_state')
 
-    if prev_state == -1:
-        put_num_moves(0 if curr_state == 0 else 1)
+    if curr_state == 0 and prev_state == 0:
+        put_num_moves(0)
 
     curr_state |= (constants.BLACK << constants.PLAYER_POS)
 
+    game = Game(constants.BOARD_SIZE, game_state=curr_state, prev_board_state=prev_state)
+
     num_moves = get_num_moves()
 
-    first_player = constants.WHITE if curr_player == constants.WHITE else constants.BLACK
-    
-    game = Game(constants.BOARD_SIZE, game_state=curr_state,
-                prev_board_state=prev_state, num_moves=num_moves, first_player=first_player)
-
-    print('possible_moves:', game.get_possible_moves())
-    
-    action = get_next_move_from_ab_agent(game)
+    action = get_next_move_from_ab_agent(game, get_last_move(prev_board, curr_board))
 
     logger.debug(f'action: {action}')
     logger.debug(f'board: {game.board}')
 
-    put_num_moves(num_moves + 2)
+    put_num_moves(num_moves + 1)
 
     if action == -1:
         print("PASS")

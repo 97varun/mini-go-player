@@ -228,13 +228,13 @@ class Game:
         
         score[constants.OTHER_STONE[self.first_player]] += self.komi
 
-        if self.game_over:
-            score_diff = score[constants.BLACK] - score[constants.WHITE]
-            score_diff = score_diff if curr_player == constants.BLACK else -score_diff
+        print(self)
+        print(score, self.game_over)
 
+        if self.game_over:
             winner = np.argmax(
                 [score[constants.BLACK], score[constants.WHITE]]) + 1
-            return constants.WIN_SCORE + score_diff if curr_player == winner else constants.LOSS_SCORE + score_diff
+            return constants.WIN_SCORE if curr_player == winner else constants.LOSS_SCORE
 
         self.calculate_connected_component_score()
         self.calculate_cell_score()
@@ -242,25 +242,25 @@ class Game:
         for player in players:
             logger.debug(f'num_moves: {self.num_moves}, score[player]: {score[player]}')
             
-            score[player] /= ((self.num_moves + 1) // 2 + (0 if player == self.first_player else self.komi))
+            score[player] /= (self.num_moves // 2 + (0 if player == self.first_player else self.komi))
             score[player] *= 2
 
             if num_stones[player] == 0:
                 num_stones[player] = 1
             
-            logger.info(f'cell_score: {self.cell_score[player][0]} / {constants.CELL_SCORE_PREFIX_SUM[num_stones[player]]}')
-            logger.info(f'cell_score: {self.cell_score[player][0] / constants.CELL_SCORE_PREFIX_SUM[num_stones[player]]}')
+            logger.debug(f'cell_score: {self.cell_score[player][0]} / {constants.CELL_SCORE_PREFIX_SUM[num_stones[player]]}')
+            logger.debug(f'cell_score: {self.cell_score[player][0] / constants.CELL_SCORE_PREFIX_SUM[num_stones[player]]}')
             
             score[player] += 0.25 * self.cell_score[player][0] / constants.CELL_SCORE_PREFIX_SUM[num_stones[player]]
             
             if self.liberty_score[player][1] == 0:
                 self.liberty_score[player][1] = 1
 
-            logger.info(f'lib_score: {self.liberty_score[player][0] / (self.liberty_score[player][1])}')
+            logger.debug(f'lib_score: {self.liberty_score[player][0] / (self.liberty_score[player][1])}')
 
             score[player] += 0.5 * self.liberty_score[player][0] / self.liberty_score[player][1]
             
-            logger.info(f'comp_score: {(self.component_score[player][0] / (self.component_score[player][1])) / (num_stones[player])}')
+            logger.debug(f'comp_score: {(self.component_score[player][0] / (self.component_score[player][1])) / (num_stones[player])}')
             
             score[player] += (self.component_score[player][0] / (self.component_score[player][1])) / (num_stones[player])
             

@@ -17,10 +17,11 @@ def get_q_values_for_state(state):
 
     if state in q:
         print(q[state])
+        print(max(q[state], key=lambda x: q[state][x]))
     else:
         print('not found')
 
-get_q_values_for_state(1 << 24)
+get_q_values_for_state(0)
 
 # with open('qtable.json', 'r') as fp:
 #     q = json.load(fp)
